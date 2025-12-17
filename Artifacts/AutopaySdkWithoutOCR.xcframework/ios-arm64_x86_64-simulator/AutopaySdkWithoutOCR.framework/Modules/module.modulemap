@@ -1,0 +1,4 @@
+framework module AutopaySdkWithoutOCR {
+  header "AutopaySdkWithoutOCR-Swift.h"
+  requires objc
+}
