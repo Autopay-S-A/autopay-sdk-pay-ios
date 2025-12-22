@@ -825,12 +825,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR36APCardActivationGatewayContainerView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR10APCardData")
-@interface APCardData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APCardGatewayContainerView")
 @interface APCardGatewayContainerView : UIView
 - (nonnull instancetype)initWithData:(APGatewayBaseViewModelData * _Nonnull)data styleManager:(APStyleManager * _Nonnull)styleManager sizeChanged:(void (^ _Nonnull)(CGSize))sizeChanged OBJC_DESIGNATED_INITIALIZER;
@@ -2173,7 +2167,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR11AutopayObjC")
 - (void)getCustomerFeeWithGatewayId:(NSInteger)gatewayId amount:(double)amount completion:(void (^ _Nonnull)(APCustomerFee * _Nullable, NSError * _Nullable))completion;
 - (void)getRegulationsWithGatewayId:(NSInteger)gatewayId completion:(void (^ _Nonnull)(APRegulationsObjC * _Nullable, NSError * _Nullable))completion;
 - (void)startTransactionWithTransactionData:(APTransactionData * _Nonnull)transactionData completion:(void (^ _Nonnull)(APTransaction * _Nullable, NSError * _Nullable))completion;
-- (void)startTransactionWithCardWithTransactionData:(APTransactionData * _Nonnull)transactionData cardData:(APCardData * _Nonnull)cardData completion:(void (^ _Nonnull)(APTransaction * _Nullable, NSError * _Nullable))completion;
 - (void)getTransactionStatusWithOrderId:(NSString * _Nonnull)orderId completion:(void (^ _Nonnull)(APTransactionStatus * _Nullable, NSError * _Nullable))completion;
 - (APConfig * _Nonnull)getConfig SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

@@ -299,12 +299,6 @@ import _WebKit_SwiftUI
   @objc override dynamic public init()
   @objc deinit
 }
-@objc final public class APCardData : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(cardNumber: Swift.String, expirationMonth: Swift.String, expirationYear: Swift.String, code: Swift.String, firstName: Swift.String?, lastName: Swift.String?, dccState: Swift.String?, dccRequestUuid: Swift.String?)
-  #endif
-  @objc deinit
-}
 @objc @objcMembers final public class APConfig : ObjectiveC.NSObject {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(token: Swift.String, serviceId: Swift.Int, acceptorId: Swift.Int, applePayMerchantId: Swift.String? = nil, environment: AutopaySdkWithoutOCR.APEnvironmentEnum, contextPath: Swift.String? = nil, currencies: [Swift.String]? = nil, countryCode: Swift.String? = nil, defaultRegulationsCode: Swift.String? = nil, regulationsHidden: [AutopaySdkWithoutOCR.APGatewayPaymentGroup]? = nil)
@@ -1013,7 +1007,6 @@ extension AutopaySdkWithoutOCR.WebViewCoordinator : WebKit.WKUIDelegate {
   @_Concurrency.MainActor final public func getCustomerFee(gatewayId: Swift.Int, amount: Swift.Double) async throws -> AutopaySdkWithoutOCR.APCustomerFee
   @_Concurrency.MainActor final public func getRegulations(gatewayId: Swift.Int) async throws -> AutopaySdkWithoutOCR.APRegulations
   @_Concurrency.MainActor final public func startTransaction(transactionData: AutopaySdkWithoutOCR.APTransactionData) async throws -> AutopaySdkWithoutOCR.APTransaction
-  @_Concurrency.MainActor final public func startTransactionWithCard(transactionData: AutopaySdkWithoutOCR.APTransactionData, cardData: AutopaySdkWithoutOCR.APCardData) async throws -> AutopaySdkWithoutOCR.APTransaction
   @_Concurrency.MainActor final public func getTransactionStatus(orderId: Swift.String) async throws -> AutopaySdkWithoutOCR.APTransactionStatus
   @objc deinit
 }
@@ -1033,9 +1026,6 @@ extension AutopaySdkWithoutOCR.WebViewCoordinator : WebKit.WKUIDelegate {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public func startTransaction(transactionData: AutopaySdkWithoutOCR.APTransactionData, completion: @escaping (AutopaySdkWithoutOCR.APTransaction?, Foundation.NSError?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public func startTransactionWithCard(transactionData: AutopaySdkWithoutOCR.APTransactionData, cardData: AutopaySdkWithoutOCR.APCardData, completion: @escaping (AutopaySdkWithoutOCR.APTransaction?, Foundation.NSError?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getTransactionStatus(orderId: Swift.String, completion: @escaping (AutopaySdkWithoutOCR.APTransactionStatus?, Foundation.NSError?) -> Swift.Void)
