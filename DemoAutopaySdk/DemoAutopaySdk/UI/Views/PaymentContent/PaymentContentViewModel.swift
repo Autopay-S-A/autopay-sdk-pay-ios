@@ -25,11 +25,8 @@ class PaymentContentViewModel: ObservableObject {
     }
 
     var paymentStatusViewModel: PaymentStatusViewModel? {
-        if let error {
-            return .init(orderId: nil, status: .failure(message: error.message))
-        }
-        guard let orderId else {
-            return nil
+        guard let orderId, error == nil else {
+            return .init(orderId: nil, status: .failure(message: error?.message))
         }
         return .init(orderId: orderId)
     }

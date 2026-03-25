@@ -34157,2646 +34157,2590 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APConfigurationError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APConfigurationError.swift",
       "kind": "IntegerLiteral",
       "offset": 204,
       "length": 28,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APConfigurationError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APConfigurationError.swift",
       "kind": "IntegerLiteral",
       "offset": 242,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 490,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 512,
       "length": 25,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 547,
       "length": 21,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 578,
       "length": 13,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 601,
       "length": 19,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 630,
       "length": 15,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 655,
       "length": 21,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 686,
       "length": 16,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 712,
       "length": 18,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 740,
       "length": 17,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 767,
       "length": 19,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 796,
       "length": 24,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 830,
       "length": 31,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 871,
       "length": 19,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 900,
       "length": 19,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 929,
       "length": 23,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 962,
       "length": 24,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 996,
       "length": 21,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1027,
       "length": 25,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1062,
       "length": 12,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1084,
       "length": 21,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1115,
       "length": 17,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1142,
       "length": 15,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1167,
       "length": 12,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1189,
       "length": 10,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1209,
       "length": 11,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1230,
       "length": 13,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1253,
       "length": 18,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1281,
       "length": 15,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1306,
       "length": 14,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "IntegerLiteral",
       "offset": 1330,
       "length": 12,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 6925,
       "length": 27,
       "value": "\"INSUFFICIENT_START_AMOUNT\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 6977,
       "length": 15,
       "value": "\"BANK_DISABLED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7030,
       "length": 29,
       "value": "\"BLOCK_MULTIPLE_TRANSACTIONS\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7093,
       "length": 25,
       "value": "\"BLOCK_PAID_TRANSACTIONS\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7144,
       "length": 16,
       "value": "\"OUTDATED_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7192,
       "length": 23,
       "value": "\"INTERNAL_SERVER_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7243,
       "length": 18,
       "value": "\"UNEXPECTED_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7295,
       "length": 25,
       "value": "\"UNEXPECTED_FORMAT_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7349,
       "length": 21,
       "value": "\"ERR_FIELD_NOT_FOUND\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7401,
       "length": 23,
       "value": "\"ERR_BAD_CLIENT_SOURCE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7454,
       "length": 21,
       "value": "\"NR_PARAMETERS_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7507,
       "length": 22,
       "value": "\"TRANSACTION_OUTDATED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7566,
       "length": 29,
       "value": "\"LINK_VALIDITY_TIME_OUTDATED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7639,
       "length": 36,
       "value": "\"TRANSACTION_VALIDITY_TIME_OUTDATED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7707,
       "length": 22,
       "value": "\"MULTIPLY_TRANSACTION\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7761,
       "length": 22,
       "value": "\"TRANSACTION_CANCELED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7819,
       "length": 27,
       "value": "\"MULTIPLY_PAID_TRANSACTION\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7883,
       "length": 28,
       "value": "\"BANK_TEMPORARY_MAINTENANCE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 7945,
       "length": 27,
       "value": "\"START_AMOUNT_OUT_OF_RANGE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8010,
       "length": 30,
       "value": "\"NON_ACCOUNTED_LIMIT_EXCEEDED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8065,
       "length": 15,
       "value": "\"PARSING_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8114,
       "length": 25,
       "value": "\"EMPTY_TRANSACTION_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8169,
       "length": 21,
       "value": "\"NOT_CONFIRMED_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8218,
       "length": 18,
       "value": "\"CONNECTION_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8261,
       "length": 15,
       "value": "\"GENERAL_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8299,
       "length": 13,
       "value": "\"TICKET_USED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8336,
       "length": 14,
       "value": "\"WRONG_TICKET\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8376,
       "length": 16,
       "value": "\"TICKET_EXPIRED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Errors\/APError.swift",
       "kind": "StringLiteral",
       "offset": 8419,
       "length": 18,
       "value": "\"PAYWAY_NOT_FOUND\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 206,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 648,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 667,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 680,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 694,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 708,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 1469,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 1490,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/ObjC\/APRegulationsObjC.swift",
       "kind": "IntegerLiteral",
       "offset": 1511,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/CheckDcc\/CheckDccState.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/CheckDcc\/CheckDccState.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 18,
       "value": "\"DCC_CHECK_FAILED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/CheckDcc\/CheckDccState.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/CheckDcc\/CheckDccState.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 18,
       "value": "\"DCC_NOT_ELIGIBLE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/CheckDcc\/CheckDccState.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/CheckDcc\/CheckDccState.swift",
       "kind": "StringLiteral",
       "offset": 268,
       "length": 14,
       "value": "\"DCC_DECLINED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/CheckDcc\/CheckDccState.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/CheckDcc\/CheckDccState.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 14,
       "value": "\"DCC_SELECTED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentToken\/PaymentTokenErrorCode.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentToken\/PaymentTokenErrorCode.swift",
       "kind": "StringLiteral",
       "offset": 182,
       "length": 16,
       "value": "\"INVALID_AMOUNT\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentToken\/PaymentTokenErrorCode.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentToken\/PaymentTokenErrorCode.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 11,
       "value": "\"HSM_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentToken\/PaymentTokenErrorCode.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentToken\/PaymentTokenErrorCode.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 18,
       "value": "\"PROCESSING_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentToken\/PaymentTokenErrorCode.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentToken\/PaymentTokenErrorCode.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 20,
       "value": "\"VISA_REQUEST_ERROR\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/ConfirmationResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/ConfirmationResponse.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 11,
       "value": "\"CONFIRMED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/ConfirmationResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/ConfirmationResponse.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 14,
       "value": "\"NOTCONFIRMED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/GatewayResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/GatewayResponse.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 11,
       "value": "\"gatewayID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/GatewayResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/GatewayResponse.swift",
       "kind": "StringLiteral",
       "offset": 617,
       "length": 9,
       "value": "\"iconURL\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 14,
       "value": "\"SUCCESS_MANY\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 9,
       "value": "\"FAILURE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 22,
       "value": "\"TRANSACTION_CANCELED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 6,
       "value": "\"PAID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/PaymentStatusResponse.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 10,
       "value": "\"DECLINED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/RegulationLabelResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/RegulationLabelResponse.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 9,
       "value": "\"labelID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/RegulationResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/RegulationResponse.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 14,
       "value": "\"regulationID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/RegulationResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/RegulationResponse.swift",
       "kind": "StringLiteral",
       "offset": 420,
       "length": 11,
       "value": "\"labelList\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 9,
       "value": "\"orderID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 10,
       "value": "\"remoteID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
       "kind": "StringLiteral",
       "offset": 588,
       "length": 11,
       "value": "\"serviceID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 11,
       "value": "\"messageID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Responses\/TransactionResponse.swift",
       "kind": "StringLiteral",
       "offset": 757,
       "length": 13,
       "value": "\"redirecturl\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APBankGridStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APBankGridStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2008,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APBankGridStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APBankGridStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2111,
       "length": 2,
       "value": "80"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APBankGridStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APBankGridStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2219,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APButtonStyleType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APButtonStyleType.swift",
       "kind": "IntegerLiteral",
       "offset": 4718,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APButtonStyleType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APButtonStyleType.swift",
       "kind": "IntegerLiteral",
       "offset": 4831,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APButtonStyleType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APButtonStyleType.swift",
       "kind": "IntegerLiteral",
       "offset": 4944,
       "length": 13,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APDCCPaymentFormStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APDCCPaymentFormStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2261,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APDialogStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APDialogStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1470,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APLoaderStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APLoaderStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1464,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APPaymentMethodTitleStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APPaymentMethodTitleStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2477,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APPaymentSummaryStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APPaymentSummaryStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2561,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APPaymentSummaryStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APPaymentSummaryStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2669,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APPaymentSummaryStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APPaymentSummaryStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2799,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APTextInputStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APTextInputStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 4695,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/Style\/APTextInputStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/Style\/APTextInputStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 4797,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APConfig.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3592,
-      "length": 10,
-      "value": "\"\/payment\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 3640,
+      "offset": 3595,
       "length": 5,
       "value": "\"PLN\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APConfig.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3686,
+      "offset": 3641,
       "length": 4,
       "value": "\"PL\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APConfig.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3728,
+      "offset": 3683,
       "length": 4,
       "value": "\"PL\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APConfirmation.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APConfirmation.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APEnvironmentEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APEnvironmentEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayPaymentGroup.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayPaymentGroup.swift",
       "kind": "IntegerLiteral",
       "offset": 197,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayPaymentGroup.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayPaymentGroup.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayPaymentGroup.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayPaymentGroup.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayPaymentGroup.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayPaymentGroup.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 227,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 290,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 15,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 329,
       "length": 12,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 3,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 3,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 377,
       "length": 3,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 390,
       "length": 10,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 410,
       "length": 9,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 429,
       "length": 12,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 451,
       "length": 8,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 469,
       "length": 12,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 491,
       "length": 14,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 515,
       "length": 10,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APGatewayType.swift",
       "kind": "IntegerLiteral",
       "offset": 535,
       "length": 9,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APParam.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APParam.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 33,
       "value": "\"<param name=\"%@\" value=\"%@\"\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APParam.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APParam.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 4,
       "value": "\"\/>\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 212,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 239,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 338,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 371,
       "length": 9,
       "value": "\"FAILURE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 408,
       "length": 14,
       "value": "\"SUCCESS_MANY\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 6,
       "value": "\"PAID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APPaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 10,
       "value": "\"DECLINED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APProduct.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APProduct.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 50,
       "value": "\"<product>\n<subAmount>%@<\/subAmount>\n<params>\n\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APProduct.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APProduct.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 25,
       "value": "\"<\/params>\n<\/product>\n\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APProductList.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APProductList.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 61,
       "value": "\"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<productList>\n\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APProductList.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APProductList.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 18,
       "value": "\"<\/productList>\n\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 242,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 280,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
       "kind": "StringLiteral",
       "offset": 1237,
       "length": 10,
       "value": "\"ACCEPTED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
       "kind": "StringLiteral",
       "offset": 1273,
       "length": 16,
       "value": "\"NOT_APPLICABLE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
       "kind": "StringLiteral",
       "offset": 1307,
       "length": 7,
       "value": "\"FORCE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringAcceptanceStateEnum.swift",
       "kind": "StringLiteral",
       "offset": 1334,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 223,
       "length": 14,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 261,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "StringLiteral",
       "offset": 1370,
       "length": 19,
       "value": "\"INIT_WITH_PAYMENT\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "StringLiteral",
       "offset": 1416,
       "length": 18,
       "value": "\"INIT_WITH_REFUND\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "StringLiteral",
       "offset": 1451,
       "length": 6,
       "value": "\"AUTO\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "StringLiteral",
       "offset": 1480,
       "length": 12,
       "value": "\"DEACTIVATE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRecurringActionEnum.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 7,
       "value": "\"PAYER\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 10,
       "value": "\"MERCHANT\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 846,
       "length": 9,
       "value": "\"DEFAULT\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 877,
       "length": 11,
       "value": "\"RECURRING\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 904,
       "length": 5,
       "value": "\"DCB\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 926,
       "length": 6,
       "value": "\"PSD2\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 949,
       "length": 6,
       "value": "\"RODO\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 975,
       "length": 9,
       "value": "\"PRIVACY\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 1067,
       "length": 13,
       "value": "\"TOP_OF_PAGE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 1104,
       "length": 14,
       "value": "\"NEAR_PAYWALL\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 1142,
       "length": 14,
       "value": "\"ABOVE_BUTTON\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
       "offset": 1181,
       "length": 16,
       "value": "\"BOTTOM_OF_PAGE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APTransactionData.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APTransactionData.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Models\/APTransactionData.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APTransactionData.swift",
       "kind": "Dictionary",
       "offset": 357,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestBodyProviding\/Providers\/UrlEncodedRequestBodyProvider.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestBodyProviding\/Providers\/UrlEncodedRequestBodyProvider.swift",
       "kind": "StringLiteral",
       "offset": 964,
       "length": 3,
       "value": "\"&\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestBodyProviding\/Providers\/UrlEncodedRequestBodyProvider.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestBodyProviding\/Providers\/UrlEncodedRequestBodyProvider.swift",
       "kind": "StringLiteral",
       "offset": 999,
       "length": 3,
       "value": "\"=\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 12,
       "value": "\"VersionSDK\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 231,
       "length": 11,
       "value": "\"MessageID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 12,
       "value": "\"Currencies\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 11,
       "value": "\"ServiceID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 10,
       "value": "\"Currency\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 412,
       "length": 8,
       "value": "\"Amount\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 455,
       "length": 11,
       "value": "\"GatewayID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 10,
       "value": "\"Language\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 543,
       "length": 9,
       "value": "\"OrderID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 591,
       "length": 15,
       "value": "\"CustomerEmail\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 15,
       "value": "\"CustomerPhone\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 8,
       "value": "\"Msisdn\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 10,
       "value": "\"Products\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 787,
       "length": 19,
       "value": "\"AuthorizationCode\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 856,
       "length": 26,
       "value": "\"RecurringAcceptanceState\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 929,
       "length": 23,
       "value": "\"RecurringAcceptanceID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 1001,
       "length": 25,
       "value": "\"RecurringAcceptanceTime\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 1067,
       "length": 17,
       "value": "\"RecurringAction\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 1122,
       "length": 14,
       "value": "\"PaymentToken\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 1172,
       "length": 12,
       "value": "\"WalletType\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 24,
       "value": "\"RegulationAcceptanceID\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 1299,
       "length": 27,
       "value": "\"RegulationAcceptanceState\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 1372,
       "length": 26,
       "value": "\"RegulationAcceptanceTime\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/CheckDccRequestData.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/CheckDccRequestData.swift",
       "kind": "StringLiteral",
       "offset": 301,
       "length": 11,
       "value": "\"serviceId\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/CheckDccRequestData.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/CheckDccRequestData.swift",
       "kind": "StringLiteral",
       "offset": 343,
       "length": 10,
       "value": "\"currency\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/RequestData.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/RequestData.swift",
       "kind": "StringLiteral",
       "offset": 178,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/RequestDataParamValue.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/RequestDataParamValue.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 12,
       "value": "\"SDK_NATIVE\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/RequestDataParamValue.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/RequestDataParamValue.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 10,
       "value": "\"ACCEPTED\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/AccessTokenCreator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/AccessTokenCreator.swift",
       "kind": "StringLiteral",
       "offset": 1188,
       "length": 14,
       "value": "\"access_token\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/AccessTokenCreator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/AccessTokenCreator.swift",
       "kind": "StringLiteral",
       "offset": 1234,
       "length": 12,
       "value": "\"token_type\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/AccessTokenCreator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/AccessTokenCreator.swift",
       "kind": "StringLiteral",
       "offset": 1275,
       "length": 9,
       "value": "\"mac_key\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/AccessTokenCreator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/AccessTokenCreator.swift",
       "kind": "StringLiteral",
       "offset": 1319,
       "length": 15,
       "value": "\"mac_algorithm\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/MacGenerator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/MacGenerator.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/MacGenerator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/MacGenerator.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 5,
       "value": "\"443\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/MacGenerator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/Authorization\/MacGenerator.swift",
       "kind": "StringLiteral",
       "offset": 479,
       "length": 4,
       "value": "\"80\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/RequestHeadersKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/RequestHeadersKey.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/RequestHeadersKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/RequestHeadersKey.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/RequestHeadersKey.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestHeadersProviding\/RequestHeadersKey.swift",
       "kind": "StringLiteral",
       "offset": 245,
       "length": 10,
       "value": "\"BmHeader\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
       "kind": "StringLiteral",
       "offset": 331,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
       "kind": "Dictionary",
       "offset": 387,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
       "kind": "BooleanLiteral",
       "offset": 426,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/GenericXMLParser.swift",
       "kind": "Dictionary",
       "offset": 1127,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
       "kind": "Dictionary",
       "offset": 414,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
       "kind": "Array",
       "offset": 473,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
       "kind": "BooleanLiteral",
       "offset": 512,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/ResponseParsers\/TransactionsStatusXMLParser.swift",
       "kind": "Dictionary",
       "offset": 2265,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/APIPath.swift",
-      "kind": "StringLiteral",
-      "offset": 159,
-      "length": 15,
-      "value": "\"\/gatewaysList\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/APIPath.swift",
-      "kind": "StringLiteral",
-      "offset": 198,
-      "length": 22,
-      "value": "\"\/webapi\/fee\/customer\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/APIPath.swift",
-      "kind": "StringLiteral",
-      "offset": 244,
-      "length": 12,
-      "value": "\"\/legalData\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/APIPath.swift",
-      "kind": "StringLiteral",
-      "offset": 276,
-      "length": 10,
-      "value": "\"\/payment\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/APIPath.swift",
-      "kind": "StringLiteral",
-      "offset": 316,
-      "length": 27,
-      "value": "\"\/webapi\/transactionStatus\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/APIPath.swift",
-      "kind": "StringLiteral",
-      "offset": 364,
-      "length": 40,
-      "value": "\"\/external\/gateway\/api\/widget\/check-dcc\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/APIPath.swift",
-      "kind": "StringLiteral",
-      "offset": 432,
-      "length": 48,
-      "value": "\"\/external\/gateway\/api\/widget\/get-payment-token\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Networking\/HttpClient.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/HttpClient.swift",
       "kind": "IntegerLiteral",
       "offset": 328,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/Button\/GatewayBackButtonStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/Button\/GatewayBackButtonStyle.swift",
       "kind": "BooleanLiteral",
       "offset": 271,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/Button\/PrimaryButtonStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/Button\/PrimaryButtonStyle.swift",
       "kind": "BooleanLiteral",
       "offset": 971,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/Button\/PrimaryButtonStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/Button\/PrimaryButtonStyle.swift",
       "kind": "BooleanLiteral",
       "offset": 996,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/Button\/PrimaryButtonStyle.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/Button\/PrimaryButtonStyle.swift",
       "kind": "BooleanLiteral",
       "offset": 1029,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/InputField\/InputFieldModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/InputField\/InputFieldModel.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/LoaderView\/LoaderView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/LoaderView\/LoaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 245,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 137,
       "value": "\"Mozilla\/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/12.0 Mobile\/15E148 Safari\/604.1\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 14,
       "value": "\"?VersionSDK=\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
       "kind": "IntegerLiteral",
       "offset": 504,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 974,
       "length": 9,
       "value": "\"#2E72BF\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1011,
       "length": 9,
       "value": "\"#158EE6\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1095,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1132,
       "length": 9,
       "value": "\"#FAFAFA\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1221,
       "length": 9,
       "value": "\"#2E72BF\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 1240,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1271,
       "length": 9,
       "value": "\"#158EE6\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 1290,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1375,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 1394,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 9,
       "value": "\"#FAFAFA\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 1444,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1560,
       "length": 9,
       "value": "\"#0F0F0F\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1643,
       "length": 9,
       "value": "\"#808080\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1680,
       "length": 9,
       "value": "\"#CCCCCC\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1770,
       "length": 9,
       "value": "\"#808080\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 1789,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1820,
       "length": 9,
       "value": "\"#CCCCCC\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 1839,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1923,
       "length": 9,
       "value": "\"#808080\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 1942,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1973,
       "length": 9,
       "value": "\"#CCCCCC\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 1992,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 2070,
       "length": 9,
       "value": "\"#F5F5F5\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 2107,
       "length": 9,
       "value": "\"#1F1f1F\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 2187,
       "length": 9,
       "value": "\"#BF4826\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 2224,
       "length": 9,
       "value": "\"#E97655\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 2303,
       "length": 9,
       "value": "\"#000000\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 2340,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 2419,
       "length": 9,
       "value": "\"#282828\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 2456,
       "length": 9,
       "value": "\"#FAFAFA\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 193,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 258,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 387,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 454,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 524,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 590,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 654,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Tokens\/UIFont.swift",
       "kind": "IntegerLiteral",
       "offset": 720,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 153,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/CardUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/DateFormatters.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/DateFormatters.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/DateFormatters.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/DateFormatters.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/NumberFormatters.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/NumberFormatters.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/NumberFormatters.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/NumberFormatters.swift",
       "kind": "IntegerLiteral",
       "offset": 366,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/NumberFormatters.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/NumberFormatters.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Utils\/PaymentGroupMapper.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Utils\/PaymentGroupMapper.swift",
       "kind": "Array",
       "offset": 677,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/CertificatesView\/CertificatesView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/CertificatesView\/CertificatesView.swift",
       "kind": "Array",
       "offset": 249,
       "length": 124,
       "value": "[\"autopay_cert\", \"mastercard_cert\", \"visa_cert\", \"pci_cert\", \"applepay_cert\"]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/GatewayListView\/APGatewayListView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/GatewayListView\/APGatewayListView.swift",
       "kind": "Array",
       "offset": 423,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/GatewayListView\/APGatewayListViewModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/GatewayListView\/APGatewayListViewModel.swift",
       "kind": "Array",
       "offset": 392,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/GatewayListView\/APGatewayListViewModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/GatewayListView\/APGatewayListViewModel.swift",
       "kind": "Array",
       "offset": 1481,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/BankTransferGatewayView\/APBankTransferGatewayViewModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/BankTransferGatewayView\/APBankTransferGatewayViewModel.swift",
       "kind": "Array",
       "offset": 282,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 300,
+      "offset": 286,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 355,
+      "offset": 341,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1420,
+      "offset": 1339,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1488,
+      "offset": 1407,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1533,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2449,
-      "length": 41,
-      "value": "\"gateway_card_activation_fee_content_ios\""
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 259,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1138,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1192,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1249,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1317,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 285,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
-      "kind": "Array",
-      "offset": 355,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
-      "kind": "Array",
-      "offset": 410,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 453,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 894,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1344,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
-      "kind": "Array",
-      "offset": 1422,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1452,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/PaymentSummary\/PaymentSummaryView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 9721,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 259,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1138,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1192,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1249,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardGatewayView\/APCardGatewayViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1317,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 285,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "kind": "Array",
+      "offset": 355,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "kind": "Array",
+      "offset": 410,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 453,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 894,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "kind": "Array",
+      "offset": 1422,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/PaymentSummary\/PaymentSummaryView.swift",
       "kind": "StringLiteral",
       "offset": 3309,
       "length": 41,
       "value": "\"Przejazd z aplikacją autopay transport\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/PaymentSummary\/PaymentSummaryView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/PaymentSummary\/PaymentSummaryView.swift",
       "kind": "FloatLiteral",
       "offset": 3376,
       "length": 5,
       "value": "29.00"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/PaymentSummary\/PaymentSummaryView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/PaymentSummary\/PaymentSummaryView.swift",
       "kind": "StringLiteral",
       "offset": 3415,
       "length": 5,
       "value": "\"zł\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Regulations\/RegulationsDialogView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Regulations\/RegulationsDialogView.swift",
       "kind": "BooleanLiteral",
       "offset": 370,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Regulations\/RegulationView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Regulations\/RegulationView.swift",
       "kind": "BooleanLiteral",
       "offset": 308,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/Regulations\/RegulationView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Regulations\/RegulationView.swift",
       "kind": "BooleanLiteral",
       "offset": 348,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebView.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 27,
       "value": "\"transactionFinishCallback\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebView.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 19,
       "value": "\"linkClickCallback\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebView.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebView.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 26,
       "value": "\"transactionStartCallback\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebViewCoordinator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebViewCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 305,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebViewCoordinator.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebViewCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 357,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebViewJavaScriptInterface.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebViewJavaScriptInterface.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 18,
       "value": "\"REGULATION_CLICK\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebViewJavaScriptInterface.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/WebView\/WebViewJavaScriptInterface.swift",
       "kind": "StringLiteral",
       "offset": 519,
       "length": 15,
       "value": "\"WEBPAGE_CLICK\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/Cache.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/Cache.swift",
       "kind": "Dictionary",
       "offset": 217,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 290,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 559,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
       "kind": "StringLiteral",
       "offset": 629,
       "length": 12,
       "value": "\"AutoPaySDK\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 656,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/Cache\/ImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 746,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/APLog.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/APLog.swift",
       "kind": "BooleanLiteral",
       "offset": 205,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/APLog.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/APLog.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 37,
       "value": "\"pl.bluemedia.autopay.sdk.AutopaySdk\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/APLog.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/APLog.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 9,
       "value": "\"general\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 12,
       "value": "\"hmac-sha-1\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 14,
       "value": "\"hmac-sha-224\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 14,
       "value": "\"hmac-sha-256\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 14,
       "value": "\"hmac-sha-384\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Utils\/HmacAlgorithm.swift",
       "kind": "StringLiteral",
       "offset": 321,
       "length": 14,
       "value": "\"hmac-sha-512\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Work\/ios-sdk-external\/AutopaySdk\/AutopaySdk\/Autopay.swift",
+      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Autopay.swift",
       "kind": "StringLiteral",
       "offset": 189,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 723,
       "length": 7,
       "value": "\"apple\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 15,
       "value": "\"applepay_cert\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1013,
       "length": 14,
       "value": "\"autopay_cert\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1162,
       "length": 15,
       "value": "\"bank_transfer\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1295,
       "length": 6,
       "value": "\"blik\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1432,
       "length": 13,
       "value": "\"camera_icon\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1563,
       "length": 6,
       "value": "\"card\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1689,
       "length": 7,
       "value": "\"check\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1829,
       "length": 14,
       "value": "\"chevron_down\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1976,
       "length": 14,
       "value": "\"chevron_left\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2119,
       "length": 12,
       "value": "\"chevron_up\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2260,
       "length": 12,
       "value": "\"error_icon\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2411,
       "length": 17,
       "value": "\"mastercard_cert\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2553,
       "length": 10,
       "value": "\"pci_cert\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2681,
       "length": 6,
       "value": "\"visa\""
     },
     {
-      "filePath": "\/Users\/krzysztofkornas\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fzlmlhpornssaddinixxpdxfwugh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/krystiankulawiak\/Library\/Developer\/Xcode\/DerivedData\/AutopaySdk-fxqjemurkktyzmfymmhbuwduiosy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutopaySdkWithoutOCR\/IntermediateBuildFilesPath\/AutopaySdk.build\/Release-iphonesimulator\/AutopaySdkWithoutOCR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2814,
       "length": 11,

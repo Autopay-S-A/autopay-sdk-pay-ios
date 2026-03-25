@@ -23,16 +23,10 @@ final class HomeScreenViewModel: ObservableObject {
 
         if let result {
             paymentStatusViewModel = .init(orderId: orderId, status: .init(apStatus: result.status))
-            return
-        }
-
-        if let error {
-            paymentStatusViewModel = .init(orderId: nil, status: .failure(message: error.message))
-            return
-        }
-
-        if let orderId {
+        } else if let orderId {
             paymentStatusViewModel = .init(orderId: orderId)
+        } else {
+            paymentStatusViewModel = .init(orderId: nil, status: .failure(message: error?.message))
         }
     }
 }
