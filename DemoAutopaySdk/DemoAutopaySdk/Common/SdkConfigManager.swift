@@ -17,7 +17,9 @@ final class SdkConfigManager: ObservableObject {
             serviceId: Int(param(for: .serviceId)) ?? 0,
             acceptorId: Int(param(for: .acceptorId)) ?? 0,
             applePayMerchantId: param(for: .applePayMerchantId),
-            environment: EnvironmentConfigType(rawValue: param(for: .environment)) == .development ? .dev : .prod
+            environment: EnvironmentConfigType(rawValue: param(for: .environment)) == .development ? .dev : .prod,
+            contextPath: param(for: .contextPath),
+            currencies: [param(for: .currency).uppercased()]
         )
     }
 
@@ -55,7 +57,9 @@ final class SdkConfigManager: ObservableObject {
         .applePayMerchantId: "merchant.pl.bm.pay-accept",
         .environment: EnvironmentConfigType.development.rawValue,
         .method: PaymentFormType.native.rawValue,
+        .contextPath: "/payment",
         .price: "29",
+        .currency: "PLN",
         .paymentSummary: "Testowa płatność",
         .email: "devnull@bm.pl",
     ]

@@ -78,7 +78,8 @@ struct ServiceConfigView: View {
             Text("demo_common_save")
         })
         .buttonStyle(PrimaryButtonStyle(type: .primary,
-                                        size: .large))
+                                        size: .large,
+                                        isEnabled: viewModel.saveButtonEnabled))
     }
 }
 

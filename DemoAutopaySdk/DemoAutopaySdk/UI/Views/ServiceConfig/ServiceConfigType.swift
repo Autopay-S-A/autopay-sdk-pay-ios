@@ -17,6 +17,8 @@ enum ServiceConfigType: String, CaseIterable {
     case environment
     case method
     case email
+    case currency
+    case contextPath
 
     var titleKey: String {
         switch self {
@@ -26,6 +28,8 @@ enum ServiceConfigType: String, CaseIterable {
             "demo_service_config_acceptor_id"
         case .paymentSummary:
             "demo_service_config_payment_summary"
+        case .contextPath:
+            "demo_service_config_context_path"
         default:
             "demo_service_config_\(self)"
         }
@@ -36,9 +40,20 @@ enum ServiceConfigType: String, CaseIterable {
             .token,
             .serviceId,
             .acceptorId,
+            .contextPath,
             .price,
+            .currency,
             .paymentSummary,
         ]
+    }
+    
+    var isRequired: Bool {
+        switch self {
+        case .paymentSummary:
+            false
+        default:
+            true
+        }
     }
 
     var keyboardType: UIKeyboardType {
