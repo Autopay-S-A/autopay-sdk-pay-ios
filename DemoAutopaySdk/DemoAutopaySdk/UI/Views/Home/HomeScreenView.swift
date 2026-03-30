@@ -34,14 +34,7 @@ struct HomeScreenView: View {
             .toolbar(content: {
                 ToolbarItem(placement: .primaryAction) {
                     NavigationLink {
-                        APCardActivationGatewayView(
-                            apConfig: SdkConfigManager.shared.config,
-                            doneTappedCallback:  { result, error in
-                                viewModel.cardPaymentDidEnd(orderId: nil, result: result, error: error)
-                            })
-                        .background(colorManager.neutralLightColor)
-                        .environmentObject(colorManager.styleManager)
-                        .navigationTitle("demo_card_activation_title")
+                        PaymentContentView(viewType: .cardActivation)
                     } label: {
                         Image("card_activation")
                             .resizable()
@@ -196,7 +189,7 @@ struct HomeScreenView: View {
             LoaderView(size: .small, trackColor: Color.white, spinnerColor: colorManager.brandDisabledColor)
         } else {
             NavigationLink {
-                PaymentContentView()
+                PaymentContentView(viewType: .payment)
             } label: {
                 Text("demo_common_next")
                     .multilineTextAlignment(.center)
@@ -213,7 +206,7 @@ struct HomeScreenView: View {
     private var webViewNextButton: some View {
         NavigationLink {
             WebMethodView(viewModel: .init(transactionCallback: { orderId, result, error in
-                viewModel.cardPaymentDidEnd(orderId: orderId, result: result, error: error)
+                viewModel.webMethodDidEnd(orderId: orderId, result: result, error: error)
             }))
         } label: {
             Text("demo_common_next")

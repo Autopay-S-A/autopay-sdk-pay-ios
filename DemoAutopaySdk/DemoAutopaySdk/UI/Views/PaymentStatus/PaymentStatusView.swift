@@ -10,7 +10,7 @@ import SwiftUI
 
 struct PaymentStatusView: View {
     @EnvironmentObject private var colorManager: ColorManager
-    @ObservedObject var viewModel: PaymentStatusViewModel
+    @StateObject var viewModel: PaymentStatusViewModel
     @Binding var isPresented: Bool
     var onDismiss: () -> Void
 

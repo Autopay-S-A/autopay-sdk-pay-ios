@@ -47,7 +47,7 @@ final class WebMethodViewModel: ObservableObject {
         }
     }
 
-    func cardPaymentDidEnd(result: APResult?, error: APError?) {
+    func webPaymentDidEnd(result: APResult?, error: APError?) {
         shouldShowWebView = false
         transactionCallback(orderId, result, error)
     }

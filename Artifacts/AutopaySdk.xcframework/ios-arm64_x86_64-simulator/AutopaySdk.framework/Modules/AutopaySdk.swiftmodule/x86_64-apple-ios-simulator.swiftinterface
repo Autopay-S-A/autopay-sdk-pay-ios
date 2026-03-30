@@ -915,14 +915,14 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdk.APError?) -> Swif
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency final public class APCardActivationGatewayContainerView : UIKit.UIView {
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdk.APConfig, styleManager: AutopaySdk.APStyleManager = .init(), payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, doneTappedCallback: AutopaySdk.APPWebViewCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil)
+  @objc @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdk.APConfig, styleManager: AutopaySdk.APStyleManager = .init(), payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdk.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil)
   #endif
   @objc @_Concurrency.MainActor @preconcurrency final public func attach(to parent: UIKit.UIViewController)
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APCardActivationGatewayView : SwiftUICore.View {
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdk.APConfig, payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, doneTappedCallback: AutopaySdk.APPWebViewCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdk.APConfig, payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdk.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
   #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
@@ -996,6 +996,7 @@ extension AutopaySdk.WebViewCoordinator : WebKit.WKUIDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for _: WebKit.WKNavigationAction, windowFeatures _: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
   #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webViewDidClose(_ webView: WebKit.WKWebView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKPermissionDecision) -> Swift.Void)
 }
 @objc @_hasMissingDesignatedInitializers final public class APResult : ObjectiveC.NSObject {
   final public let status: AutopaySdk.APPaymentStatus

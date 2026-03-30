@@ -815,11 +815,11 @@ typedef SWIFT_ENUM(NSInteger, APButtonStyleType, open) {
 enum APGatewayPaymentGroup : NSInteger;
 @class APGateway;
 @class APTransactionData;
-@class APResult;
+@class APTransaction;
 @class APError;
 SWIFT_CLASS("_TtC10AutopaySdk36APCardActivationGatewayContainerView")
 @interface APCardActivationGatewayContainerView : UIView
-- (nonnull instancetype)initWithApConfig:(APConfig * _Nonnull)apConfig styleManager:(APStyleManager * _Nonnull)styleManager payTappedCallback:(void (^ _Nullable)(enum APGatewayPaymentGroup, APGateway * _Nonnull, APTransactionData * _Nonnull))payTappedCallback doneTappedCallback:(void (^ _Nullable)(APResult * _Nullable, APError * _Nullable))doneTappedCallback tokenExpiredCallback:(void (^ _Nullable)(APError * _Nullable))tokenExpiredCallback OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithApConfig:(APConfig * _Nonnull)apConfig styleManager:(APStyleManager * _Nonnull)styleManager payTappedCallback:(void (^ _Nullable)(enum APGatewayPaymentGroup, APGateway * _Nonnull, APTransactionData * _Nonnull))payTappedCallback paymentViewCallback:(void (^ _Nullable)(APTransaction * _Nullable, APError * _Nullable))paymentViewCallback tokenExpiredCallback:(void (^ _Nullable)(APError * _Nullable))tokenExpiredCallback OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -1183,7 +1183,6 @@ SWIFT_CLASS("_TtC10AutopaySdk9APGateway")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class APTransaction;
 SWIFT_CLASS("_TtC10AutopaySdk26APGatewayBaseViewModelData")
 @interface APGatewayBaseViewModelData : NSObject
 - (nonnull instancetype)initWithConfig:(APConfig * _Nonnull)config amount:(double)amount summary:(NSString * _Nullable)summary customerEmail:(NSString * _Nullable)customerEmail customerPhone:(NSString * _Nullable)customerPhone blikContentHeaderTitle:(NSString * _Nullable)blikContentHeaderTitle bankContentHeaderTitle:(NSString * _Nullable)bankContentHeaderTitle paymentViewCallback:(void (^ _Nullable)(APTransaction * _Nullable, APError * _Nullable))paymentViewCallback payTappedCallback:(void (^ _Nullable)(enum APGatewayPaymentGroup, APGateway * _Nonnull, APTransactionData * _Nonnull))payTappedCallback customerFeeDidUpdatedCallback:(void (^ _Nullable)(APCustomerFee * _Nullable))customerFeeDidUpdatedCallback tokenExpiredCallback:(void (^ _Nullable)(APError * _Nullable))tokenExpiredCallback OBJC_DESIGNATED_INITIALIZER;
@@ -2196,9 +2195,12 @@ SWIFT_CLASS("_TtC10AutopaySdk18WebViewCoordinator")
 
 @class WKWebViewConfiguration;
 @class WKWindowFeatures;
+@class WKSecurityOrigin;
+@class WKFrameInfo;
 @interface WebViewCoordinator (SWIFT_EXTENSION(AutopaySdk)) <WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)_ windowFeatures:(WKWindowFeatures * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
 - (void)webViewDidClose:(WKWebView * _Nonnull)webView;
+- (void)webView:(WKWebView * _Nonnull)webView requestMediaCapturePermissionForOrigin:(WKSecurityOrigin * _Nonnull)origin initiatedByFrame:(WKFrameInfo * _Nonnull)frame type:(WKMediaCaptureType)type decisionHandler:(void (^ _Nonnull)(WKPermissionDecision))decisionHandler;
 @end
 
 #endif
@@ -3026,11 +3028,11 @@ typedef SWIFT_ENUM(NSInteger, APButtonStyleType, open) {
 enum APGatewayPaymentGroup : NSInteger;
 @class APGateway;
 @class APTransactionData;
-@class APResult;
+@class APTransaction;
 @class APError;
 SWIFT_CLASS("_TtC10AutopaySdk36APCardActivationGatewayContainerView")
 @interface APCardActivationGatewayContainerView : UIView
-- (nonnull instancetype)initWithApConfig:(APConfig * _Nonnull)apConfig styleManager:(APStyleManager * _Nonnull)styleManager payTappedCallback:(void (^ _Nullable)(enum APGatewayPaymentGroup, APGateway * _Nonnull, APTransactionData * _Nonnull))payTappedCallback doneTappedCallback:(void (^ _Nullable)(APResult * _Nullable, APError * _Nullable))doneTappedCallback tokenExpiredCallback:(void (^ _Nullable)(APError * _Nullable))tokenExpiredCallback OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithApConfig:(APConfig * _Nonnull)apConfig styleManager:(APStyleManager * _Nonnull)styleManager payTappedCallback:(void (^ _Nullable)(enum APGatewayPaymentGroup, APGateway * _Nonnull, APTransactionData * _Nonnull))payTappedCallback paymentViewCallback:(void (^ _Nullable)(APTransaction * _Nullable, APError * _Nullable))paymentViewCallback tokenExpiredCallback:(void (^ _Nullable)(APError * _Nullable))tokenExpiredCallback OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -3394,7 +3396,6 @@ SWIFT_CLASS("_TtC10AutopaySdk9APGateway")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class APTransaction;
 SWIFT_CLASS("_TtC10AutopaySdk26APGatewayBaseViewModelData")
 @interface APGatewayBaseViewModelData : NSObject
 - (nonnull instancetype)initWithConfig:(APConfig * _Nonnull)config amount:(double)amount summary:(NSString * _Nullable)summary customerEmail:(NSString * _Nullable)customerEmail customerPhone:(NSString * _Nullable)customerPhone blikContentHeaderTitle:(NSString * _Nullable)blikContentHeaderTitle bankContentHeaderTitle:(NSString * _Nullable)bankContentHeaderTitle paymentViewCallback:(void (^ _Nullable)(APTransaction * _Nullable, APError * _Nullable))paymentViewCallback payTappedCallback:(void (^ _Nullable)(enum APGatewayPaymentGroup, APGateway * _Nonnull, APTransactionData * _Nonnull))payTappedCallback customerFeeDidUpdatedCallback:(void (^ _Nullable)(APCustomerFee * _Nullable))customerFeeDidUpdatedCallback tokenExpiredCallback:(void (^ _Nullable)(APError * _Nullable))tokenExpiredCallback OBJC_DESIGNATED_INITIALIZER;
@@ -4407,9 +4408,12 @@ SWIFT_CLASS("_TtC10AutopaySdk18WebViewCoordinator")
 
 @class WKWebViewConfiguration;
 @class WKWindowFeatures;
+@class WKSecurityOrigin;
+@class WKFrameInfo;
 @interface WebViewCoordinator (SWIFT_EXTENSION(AutopaySdk)) <WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)_ windowFeatures:(WKWindowFeatures * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
 - (void)webViewDidClose:(WKWebView * _Nonnull)webView;
+- (void)webView:(WKWebView * _Nonnull)webView requestMediaCapturePermissionForOrigin:(WKSecurityOrigin * _Nonnull)origin initiatedByFrame:(WKFrameInfo * _Nonnull)frame type:(WKMediaCaptureType)type decisionHandler:(void (^ _Nonnull)(WKPermissionDecision))decisionHandler;
 @end
 
 #endif
