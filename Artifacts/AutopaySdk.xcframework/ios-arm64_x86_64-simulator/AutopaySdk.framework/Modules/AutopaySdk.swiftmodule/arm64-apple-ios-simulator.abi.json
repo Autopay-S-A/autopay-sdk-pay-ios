@@ -30182,7 +30182,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apConfig:styleManager:payTappedCallback:doneTappedCallback:tokenExpiredCallback:)",
+            "printedName": "init(apConfig:styleManager:payTappedCallback:paymentViewCallback:tokenExpiredCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30252,12 +30252,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((AutopaySdk.APResult?, AutopaySdk.APError?) -> ())?",
+                "printedName": "((AutopaySdk.APTransaction?, AutopaySdk.APError?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AutopaySdk.APResult?, AutopaySdk.APError?) -> ()",
+                    "printedName": "(AutopaySdk.APTransaction?, AutopaySdk.APError?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -30267,18 +30267,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(AutopaySdk.APResult?, AutopaySdk.APError?)",
+                        "printedName": "(AutopaySdk.APTransaction?, AutopaySdk.APError?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "AutopaySdk.APResult?",
+                            "printedName": "AutopaySdk.APTransaction?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "APResult",
-                                "printedName": "AutopaySdk.APResult",
-                                "usr": "c:@M@AutopaySdk@objc(cs)APResult"
+                                "name": "APTransaction",
+                                "printedName": "AutopaySdk.APTransaction",
+                                "usr": "c:@M@AutopaySdk@objc(cs)APTransaction"
                               }
                             ],
                             "usr": "s:Sq"
@@ -30342,8 +30342,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AutopaySdk@objc(cs)APCardActivationGatewayContainerView(im)initWithApConfig:styleManager:payTappedCallback:doneTappedCallback:tokenExpiredCallback:",
-            "mangledName": "$s10AutopaySdk36APCardActivationGatewayContainerViewC8apConfig12styleManager17payTappedCallback04donemN0012tokenExpiredN0AcA8APConfigC_AA07APStyleK0CyAA21APGatewayPaymentGroupO_AA0T0CAA17APTransactionDataCtcSgyAA8APResultCSg_AA7APErrorCSgtcSgyAYcSgtcfc",
+            "usr": "c:@M@AutopaySdk@objc(cs)APCardActivationGatewayContainerView(im)initWithApConfig:styleManager:payTappedCallback:paymentViewCallback:tokenExpiredCallback:",
+            "mangledName": "$s10AutopaySdk36APCardActivationGatewayContainerViewC8apConfig12styleManager17payTappedCallback07paymentgN0012tokenExpiredN0AcA8APConfigC_AA07APStyleK0CyAA21APGatewayPaymentGroupO_AA0T0CAA17APTransactionDataCtcSgyAA0W0CSg_AA7APErrorCSgtcSgyAYcSgtcfc",
             "moduleName": "AutopaySdk",
             "declAttributes": [
               "Preconcurrency",
@@ -30549,7 +30549,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apConfig:payTappedCallback:doneTappedCallback:tokenExpiredCallback:)",
+            "printedName": "init(apConfig:payTappedCallback:paymentViewCallback:tokenExpiredCallback:sizeChanged:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30612,12 +30612,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((AutopaySdk.APResult?, AutopaySdk.APError?) -> ())?",
+                "printedName": "((AutopaySdk.APTransaction?, AutopaySdk.APError?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AutopaySdk.APResult?, AutopaySdk.APError?) -> ()",
+                    "printedName": "(AutopaySdk.APTransaction?, AutopaySdk.APError?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -30627,18 +30627,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(AutopaySdk.APResult?, AutopaySdk.APError?)",
+                        "printedName": "(AutopaySdk.APTransaction?, AutopaySdk.APError?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "AutopaySdk.APResult?",
+                            "printedName": "AutopaySdk.APTransaction?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "APResult",
-                                "printedName": "AutopaySdk.APResult",
-                                "usr": "c:@M@AutopaySdk@objc(cs)APResult"
+                                "name": "APTransaction",
+                                "printedName": "AutopaySdk.APTransaction",
+                                "usr": "c:@M@AutopaySdk@objc(cs)APTransaction"
                               }
                             ],
                             "usr": "s:Sq"
@@ -30699,11 +30699,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreFoundation.CGSize) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreFoundation.CGSize) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10AutopaySdk27APCardActivationGatewayViewV8apConfig17payTappedCallback04donejK0012tokenExpiredK0AcA8APConfigC_yAA21APGatewayPaymentGroupO_AA0P0CAA17APTransactionDataCtcSgyAA8APResultCSg_AA7APErrorCSgtcSgyAVcSgtcfc",
-            "mangledName": "$s10AutopaySdk27APCardActivationGatewayViewV8apConfig17payTappedCallback04donejK0012tokenExpiredK0AcA8APConfigC_yAA21APGatewayPaymentGroupO_AA0P0CAA17APTransactionDataCtcSgyAA8APResultCSg_AA7APErrorCSgtcSgyAVcSgtcfc",
+            "usr": "s:10AutopaySdk27APCardActivationGatewayViewV8apConfig17payTappedCallback07paymentfK0012tokenExpiredK011sizeChangedAcA8APConfigC_yAA21APGatewayPaymentGroupO_AA0R0CAA17APTransactionDataCtcSgyAA0U0CSg_AA7APErrorCSgtcSgyAWcSgySo6CGSizeVcSgtcfc",
+            "mangledName": "$s10AutopaySdk27APCardActivationGatewayViewV8apConfig17payTappedCallback07paymentfK0012tokenExpiredK011sizeChangedAcA8APConfigC_yAA21APGatewayPaymentGroupO_AA0R0CAA17APTransactionDataCtcSgyAA0U0CSg_AA7APErrorCSgtcSgyAWcSgySo6CGSizeVcSgtcfc",
             "moduleName": "AutopaySdk",
             "declAttributes": [
               "Preconcurrency",
@@ -32938,6 +32965,74 @@
             "mangledName": "$s10AutopaySdk18WebViewCoordinatorC03webD8DidCloseyySo05WKWebD0CF",
             "moduleName": "AutopaySdk",
             "objc_name": "webViewDidClose:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:requestMediaCapturePermissionFor:initiatedByFrame:type:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKSecurityOrigin",
+                "printedName": "WebKit.WKSecurityOrigin",
+                "usr": "c:objc(cs)WKSecurityOrigin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKMediaCaptureType",
+                "printedName": "WebKit.WKMediaCaptureType",
+                "usr": "c:@E@WKMediaCaptureType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKPermissionDecision) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKPermissionDecision",
+                    "printedName": "WebKit.WKPermissionDecision",
+                    "usr": "c:@E@WKPermissionDecision"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AutopaySdk@objc(cs)WebViewCoordinator(im)webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:",
+            "mangledName": "$s10AutopaySdk18WebViewCoordinatorC03webD0_32requestMediaCapturePermissionFor16initiatedByFrame4type15decisionHandlerySo05WKWebD0C_So16WKSecurityOriginCSo11WKFrameInfoCSo07WKMediaI4TypeVySo20WKPermissionDecisionVctF",
+            "moduleName": "AutopaySdk",
+            "objc_name": "webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -37121,21 +37216,14 @@
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
       "kind": "StringLiteral",
-      "offset": 215,
-      "length": 137,
-      "value": "\"Mozilla\/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/12.0 Mobile\/15E148 Safari\/604.1\""
-    },
-    {
-      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 391,
+      "offset": 223,
       "length": 14,
       "value": "\"?VersionSDK=\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/DesignSystem\/Components\/WebView\/APWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 504,
+      "offset": 336,
       "length": 1,
       "value": "0"
     },
@@ -38087,28 +38175,21 @@
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1339,
+      "offset": 1289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1407,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1452,
+      "offset": 1357,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 9721,
+      "offset": 9338,
       "length": 3,
       "value": "1.0"
     },

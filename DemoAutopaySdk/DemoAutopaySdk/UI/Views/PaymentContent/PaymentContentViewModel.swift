@@ -15,12 +15,14 @@ class PaymentContentViewModel: ObservableObject {
     @Published var redirectUrl: URL? = nil
     @Published var shouldShowPaymentStatus: Bool = false
     @Published var shouldShowWebView: Bool = false
+    @Published var viewType: PaymentViewType
 
     private var orderId: String?
     private var error: APError?
     private var subscriptions = Set<AnyCancellable>()
 
-    init() {
+    init(viewType: PaymentViewType) {
+        self.viewType = viewType
         setupBinding()
     }
 
