@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47EB4F1C2EF0273000A91A8B /* AutopaySdk in Frameworks */ = {isa = PBXBuildFile; productRef = 47EB4F1B2EF0273000A91A8B /* AutopaySdk */; };
+		8D9C01922F7A809F0088D8A8 /* AutopaySdk in Frameworks */ = {isa = PBXBuildFile; productRef = 8D9C01912F7A809F0088D8A8 /* AutopaySdk */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25488D5E2DCA35A6005C4D1C /* AutopaySdkWithoutOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AutopaySdkWithoutOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25488D622DCA369A005C4D1C /* AutopaySdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AutopaySdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25488E042DCA3833005C4D1C /* AutopaySdkWithoutOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AutopaySdkWithoutOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25488E082DCA3871005C4D1C /* AutopaySdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AutopaySdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25488E0C2DCA389A005C4D1C /* AutopaySdkWithoutOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AutopaySdkWithoutOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25488E1E2DCA3AD2005C4D1C /* AutopaySdkWithoutOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AutopaySdkWithoutOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25488E222DCA3AF9005C4D1C /* AutopaySdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AutopaySdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D6E4212D8182FA006883BA /* DemoAutopaySdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAutopaySdk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D6E45F2D8187FD006883BA /* AutopaySdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AutopaySdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -40,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47EB4F1C2EF0273000A91A8B /* AutopaySdk in Frameworks */,
+				8D9C01922F7A809F0088D8A8 /* AutopaySdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				25D6E4232D8182FA006883BA /* DemoAutopaySdk */,
-				8D0CD2792EBB674400E21389 /* Frameworks */,
+				25D6E45E2D8187FD006883BA /* Frameworks */,
 				25D6E4222D8182FA006883BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,9 +72,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D0CD2792EBB674400E21389 /* Frameworks */ = {
+		25D6E45E2D8187FD006883BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25488E222DCA3AF9005C4D1C /* AutopaySdk.framework */,
+				25488E1E2DCA3AD2005C4D1C /* AutopaySdkWithoutOCR.framework */,
+				25488E0C2DCA389A005C4D1C /* AutopaySdkWithoutOCR.framework */,
+				25488E082DCA3871005C4D1C /* AutopaySdk.framework */,
+				25488E042DCA3833005C4D1C /* AutopaySdkWithoutOCR.framework */,
+				25488D622DCA369A005C4D1C /* AutopaySdk.framework */,
+				25488D5E2DCA35A6005C4D1C /* AutopaySdkWithoutOCR.framework */,
+				25D6E45F2D8187FD006883BA /* AutopaySdk.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,7 +107,7 @@
 			);
 			name = DemoAutopaySdk;
 			packageProductDependencies = (
-				47EB4F1B2EF0273000A91A8B /* AutopaySdk */,
+				8D9C01912F7A809F0088D8A8 /* AutopaySdk */,
 			);
 			productName = DemoAutopaySdk;
 			productReference = 25D6E4212D8182FA006883BA /* DemoAutopaySdk.app */;
@@ -124,7 +140,7 @@
 			mainGroup = 25D6E4182D8182FA006883BA;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				47EB4F1A2EF0273000A91A8B /* XCLocalSwiftPackageReference "../../asd-ios-distribution" */,
+				8D9C011C2F7A7FF50088D8A8 /* XCLocalSwiftPackageReference "../../autopay-sdk-pay-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 25D6E4222D8182FA006883BA /* Products */;
@@ -286,7 +302,7 @@
 				CODE_SIGN_ENTITLEMENTS = DemoAutopaySdk/DemoAutopaySdk.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 35;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 58672BT27J;
 				ENABLE_PREVIEWS = YES;
@@ -303,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.0.2;
+				MARKETING_VERSION = 4.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = pl.bluemedia.autopay.sdk.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -321,7 +337,7 @@
 				CODE_SIGN_ENTITLEMENTS = DemoAutopaySdk/DemoAutopaySdk.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 35;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 58672BT27J;
 				ENABLE_PREVIEWS = YES;
@@ -338,7 +354,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.0.2;
+				MARKETING_VERSION = 4.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = pl.bluemedia.autopay.sdk.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -372,15 +388,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		47EB4F1A2EF0273000A91A8B /* XCLocalSwiftPackageReference "../../asd-ios-distribution" */ = {
+		8D9C011C2F7A7FF50088D8A8 /* XCLocalSwiftPackageReference "../../autopay-sdk-pay-ios" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../asd-ios-distribution";
+			relativePath = "../../autopay-sdk-pay-ios";
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		47EB4F1B2EF0273000A91A8B /* AutopaySdk */ = {
+		8D9C01912F7A809F0088D8A8 /* AutopaySdk */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 8D9C011C2F7A7FF50088D8A8 /* XCLocalSwiftPackageReference "../../autopay-sdk-pay-ios" */;
 			productName = AutopaySdk;
 		};
 /* End XCSwiftPackageProductDependency section */

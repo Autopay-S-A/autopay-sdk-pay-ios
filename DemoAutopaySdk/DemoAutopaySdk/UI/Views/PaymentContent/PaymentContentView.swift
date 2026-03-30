@@ -9,8 +9,13 @@ import AutopaySdk
 import SwiftUI
 
 struct PaymentContentView: View {
+    @Environment(\.dismiss) var dismiss
     @EnvironmentObject private var colorManager: ColorManager
-    @StateObject private var viewModel: PaymentContentViewModel = .init()
+    @StateObject private var viewModel: PaymentContentViewModel
+    
+    init(viewType: PaymentViewType) {
+        _viewModel = StateObject(wrappedValue: PaymentContentViewModel(viewType: viewType))
+    }
 
     var body: some View {
         VStack {
@@ -20,15 +25,18 @@ struct PaymentContentView: View {
         .background(colorManager.neutralLightColor)
         .fullScreenCover(
             isPresented: $viewModel.shouldShowPaymentStatus,
-            content: {
-                if let viewModel = viewModel.paymentStatusViewModel {
-                    PaymentStatusView(viewModel: viewModel, isPresented: $viewModel.shouldShowPaymentStatus) {
-                        self.viewModel.redirectUrl = nil
-                    }
+            onDismiss: {
+                if viewModel.viewType == .cardActivation {
+                    dismiss()
+                }
+        }, content: {
+            if let viewModel = viewModel.paymentStatusViewModel {
+                PaymentStatusView(viewModel: viewModel, isPresented: $viewModel.shouldShowPaymentStatus) {
+                    self.viewModel.redirectUrl = nil
                 }
             }
-        )
-        .navigationTitle(viewModel.navigationTitle)
+        })
+        .navigationTitle(viewModel.viewType == .cardActivation ? "demo_card_activation_title" : viewModel.navigationTitle)
     }
     
     @ViewBuilder
@@ -49,7 +57,17 @@ struct PaymentContentView: View {
         }
     }
     
+    @ViewBuilder
     var paymentView: some View {
+        switch viewModel.viewType {
+        case .payment:
+            gatewayListView
+        case .cardActivation:
+            cardActivationView
+        }
+    }
+    
+    var gatewayListView: some View {
         APGatewayListView(
             data: APGatewayBaseViewModelData(
                 config: SdkConfigManager.shared.config,
@@ -67,6 +85,16 @@ struct PaymentContentView: View {
             )) { viewModel.setSelectedPaymentGroup($0) }
             .background(colorManager.neutralLightColor)
             .environmentObject(colorManager.styleManager)
+    }
+    
+    var cardActivationView: some View {
+        APCardActivationGatewayView(
+            apConfig: SdkConfigManager.shared.config,
+            paymentViewCallback:  { result, error in
+                viewModel.transactionCompleted(result: result, error: error)
+            })
+        .background(colorManager.neutralLightColor)
+        .environmentObject(colorManager.styleManager)
     }
     
     var webViewNavigationLink: some View {

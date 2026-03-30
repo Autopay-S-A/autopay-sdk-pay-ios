@@ -38,7 +38,7 @@ struct WebMethodView: View {
             ErrorView(state: errorState)
         case .content:
             RedirectWebView(url: viewModel.webViewUrl) { result, error in
-                viewModel.cardPaymentDidEnd(result: result, error: error)
+                viewModel.webPaymentDidEnd(result: result, error: error)
             }
         }
     }
