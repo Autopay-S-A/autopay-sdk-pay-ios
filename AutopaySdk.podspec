@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Autopay'
-  s.version  = '4.0.2'
+  s.version  = '4.0.4'
   s.summary  = 'Autopay SDK'
   s.homepage = 'https://github.com/Autopay-S-A/autopay-sdk-pay-ios'
   s.author   = { 'Autopay' => 'support@autopay.pl' }
