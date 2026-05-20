@@ -45,7 +45,10 @@ struct PaymentStatusView: View {
         .onAppear {
             viewModel.startTask()
         }
-        .onDisappear { onDismiss() }
+        .onDisappear {
+            viewModel.stopTask()
+            onDismiss()
+        }
     }
     
     private var imageColor: Color {
