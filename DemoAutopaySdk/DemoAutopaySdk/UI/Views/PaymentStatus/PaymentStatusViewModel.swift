@@ -30,13 +30,17 @@ class PaymentStatusViewModel: ObservableObject {
             await self.getOrderStatus()
         }
     }
+    
+    func stopTask() {
+        task?.cancel()
+        task = nil
+    }
 
     private func observeAppLifecycle() {
         let center = NotificationCenter.default
         center.publisher(for: UIApplication.willResignActiveNotification)
             .sink { [weak self] _ in
-                self?.task?.cancel()
-                self?.task = nil
+                self?.stopTask()
             }
             .store(in: &cancellables)
 

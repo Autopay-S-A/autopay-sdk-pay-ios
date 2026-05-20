@@ -21339,6 +21339,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
@@ -36455,7 +36456,7 @@
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/CardActivationView\/APCardActivationGatewayViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 9606,
+      "offset": 9504,
       "length": 3,
       "value": "1.0"
     },
@@ -36525,28 +36526,28 @@
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 918,
+      "offset": 919,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1368,
+      "offset": 1369,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
       "kind": "Array",
-      "offset": 1446,
+      "offset": 1447,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/UI\/Views\/Payments\/APGatewayBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1476,
+      "offset": 1477,
       "length": 5,
       "value": "false"
     },

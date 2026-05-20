@@ -521,7 +521,7 @@ public enum RegulationLabelPlacement : Swift.String, Swift.Equatable {
   @objc final public let redirectUrl: Swift.String?
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc final public class APTransactionData : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APTransactionData : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc public init(amount: Swift.Double)
   @objc convenience public init(amount: Swift.Double, orderId: Swift.String)
