@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AutopaySdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AutopaySdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
 import AVFoundation
 import AudioToolbox
 @_exported import AutopaySdk
@@ -30,9 +30,7 @@ import _WebKit_SwiftUI
   case unparsableTokenError
   case authorizationEncryptionError
   case invalidUrlError
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
     get
@@ -81,9 +79,7 @@ import _WebKit_SwiftUI
   case invalidUrlError
   case paywayNotFound
   case tokenExpired
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -93,9 +89,7 @@ import _WebKit_SwiftUI
   case payer
   case merchant
   @nonobjc public init(_ swift: AutopaySdk.RegulationServiceModel)
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -109,9 +103,7 @@ import _WebKit_SwiftUI
   case rodo
   case privacy
   @nonobjc public init(_ swift: AutopaySdk.RegulationType)
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -123,9 +115,7 @@ import _WebKit_SwiftUI
   case aboveButton
   case bottomOfPage
   @nonobjc public init(_ swift: AutopaySdk.RegulationLabelPlacement)
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -137,9 +127,7 @@ import _WebKit_SwiftUI
   final public let placement: AutopaySdk.APRegulationLabelPlacementObjC?
   @objc final public let showCheckbox: Swift.Bool
   @objc final public let checkboxRequired: Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(labelId: Swift.Int, inputLabel: Swift.String, placement: AutopaySdk.APRegulationLabelPlacementObjC?, showCheckbox: Swift.Bool, checkboxRequired: Swift.Bool)
-  #endif
   @nonobjc convenience public init(from swift: AutopaySdk.APRegulationLabel)
   @objc deinit
 }
@@ -148,9 +136,7 @@ import _WebKit_SwiftUI
   @objc final public let type: AutopaySdk.APRegulationTypeObjC
   @objc final public let url: Swift.String?
   @objc final public let labels: [AutopaySdk.APRegulationLabelObjC]
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(regulationId: Swift.Int, type: AutopaySdk.APRegulationTypeObjC, url: Swift.String?, labels: [AutopaySdk.APRegulationLabelObjC])
-  #endif
   @nonobjc convenience public init(from swift: AutopaySdk.APRegulation)
   @objc deinit
 }
@@ -187,9 +173,7 @@ import _WebKit_SwiftUI
   @objc public var cornerRadius: CoreFoundation.CGFloat
   @objc public var borderWidth: CoreFoundation.CGFloat
   @objc public var minHeight: CoreFoundation.CGFloat
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(containerColor: AutopaySdk.APColor, containerInactiveColor: AutopaySdk.APColor, borderColor: AutopaySdk.APColor, borderInactiveColor: AutopaySdk.APColor, textStyle: AutopaySdk.APTextStyle, textInactiveStyle: AutopaySdk.APTextStyle, iconColor: AutopaySdk.APColor? = nil, cornerRadius: CoreFoundation.CGFloat, borderWidth: CoreFoundation.CGFloat, minHeight: CoreFoundation.CGFloat)
-  #endif
   @objc public init(style: AutopaySdk.APButtonStyleType)
   @objc deinit
 }
@@ -198,9 +182,7 @@ import _WebKit_SwiftUI
   case secondary
   case tertiary
   case paymentMethod
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -308,12 +290,8 @@ import _WebKit_SwiftUI
   @objc deinit
 }
 @objc @objcMembers final public class APConfig : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(token: Swift.String, serviceId: Swift.Int, acceptorId: Swift.Int, applePayMerchantId: Swift.String? = nil, environment: AutopaySdk.APEnvironmentEnum, contextPath: Swift.String? = nil, currencies: [Swift.String]? = nil, countryCode: Swift.String? = nil, defaultRegulationsCode: Swift.String? = nil, regulationsHidden: [AutopaySdk.APGatewayPaymentGroup]? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc convenience public init(token: Swift.String, serviceId: Swift.Int, acceptorId: Swift.Int, applePayMerchantId: Swift.String? = nil, environment: AutopaySdk.APEnvironmentEnum, contextPath: Swift.String? = nil, currencies: [Swift.String]? = nil, countryCode: Swift.String? = nil, defaultRegulationsCode: Swift.String? = nil, regulationsHidden: [Swift.Int])
-  #endif
   @objc final public func setToken(token: Swift.String)
   @objc final public func setCurrencies(currencies: [Swift.String])
   @objc final public func setCountryCode(countryCode: Swift.String)
@@ -323,9 +301,7 @@ import _WebKit_SwiftUI
 @objc public enum APConfirmation : Swift.Int {
   case confirmed
   case notConfirmed
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -335,9 +311,7 @@ import _WebKit_SwiftUI
   @objc final public var currency: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
-  #endif
   @objc deinit
 }
 @objc @objcMembers final public class APCustomerFee : ObjectiveC.NSObject {
@@ -353,9 +327,7 @@ import _WebKit_SwiftUI
 @objc public enum APEnvironmentEnum : Swift.Int, Swift.RawRepresentable, Swift.CaseIterable {
   case prod
   case dev
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias AllCases = [AutopaySdk.APEnvironmentEnum]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [AutopaySdk.APEnvironmentEnum] {
@@ -388,9 +360,7 @@ import _WebKit_SwiftUI
     get
   }
   @objc final public let id: Foundation.UUID
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
-  #endif
   public typealias ID = Foundation.UUID
   @objc deinit
 }
@@ -400,9 +370,7 @@ import _WebKit_SwiftUI
   case bankTransfer
   case visa
   case applePay
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias AllCases = [AutopaySdk.APGatewayPaymentGroup]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [AutopaySdk.APGatewayPaymentGroup] {
@@ -453,9 +421,7 @@ import _WebKit_SwiftUI
   case pending
   case failure
   case unknown = -1
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -482,9 +448,7 @@ import _WebKit_SwiftUI
   public var rawValue: AutopaySdk.APRecurringAcceptanceStateEnum.RawValue {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: AutopaySdk.APRecurringAcceptanceStateEnum.RawValue)
-  #endif
 }
 @objc public enum APRecurringActionEnum : Swift.Int, Swift.RawRepresentable, Swift.Encodable {
   case initWithPayment
@@ -496,9 +460,7 @@ import _WebKit_SwiftUI
   public var rawValue: AutopaySdk.APRecurringActionEnum.RawValue {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: AutopaySdk.APRecurringActionEnum.RawValue)
-  #endif
 }
 public struct APRegulations : Swift.Equatable {
   public let serviceModel: AutopaySdk.RegulationServiceModel
@@ -523,9 +485,7 @@ public struct APRegulationLabel : Swift.Equatable {
 public enum RegulationServiceModel : Swift.String, Swift.Equatable {
   case payer
   case merchant
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -538,9 +498,7 @@ public enum RegulationType : Swift.String, Swift.Equatable {
   case psd2
   case rodo
   case privacy
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -551,18 +509,14 @@ public enum RegulationLabelPlacement : Swift.String, Swift.Equatable {
   case nearPaywall
   case aboveButton
   case bottomOfPage
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 @objc @objcMembers public class APTransaction : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(orderId: Swift.String? = nil, remoteId: Swift.String? = nil, hash: Swift.String? = nil, serviceId: Swift.String? = nil, messageId: Swift.String? = nil, confirmation: AutopaySdk.APConfirmation? = nil, reason: Swift.String? = nil, paymentStatus: AutopaySdk.APPaymentStatus = .unknown, status: AutopaySdk.APPaymentStatus = .unknown, redirectUrl: Swift.String? = nil)
-  #endif
   @objc final public let orderId: Swift.String?
   @objc final public let remoteId: Swift.String?
   @objc final public let transactionHash: Swift.String?
@@ -575,7 +529,7 @@ public enum RegulationLabelPlacement : Swift.String, Swift.Equatable {
   @objc final public let redirectUrl: Swift.String?
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc final public class APTransactionData : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APTransactionData : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc public init(amount: Swift.Double)
   @objc convenience public init(amount: Swift.Double, orderId: Swift.String)
@@ -627,7 +581,7 @@ public enum APRequestDataParamKey {
   public typealias Body = @_opaqueReturnTypeOf("$s10AutopaySdk12GatewayImageV4bodyQrvp", 0) __
 }
 @objc final public class APStyleManager : ObjectiveC.NSObject, Combine.ObservableObject {
-  @Combine.Published @_projectedValueProperty($typography) final public var typography: AutopaySdk.APTypography {
+  @Combine.Published<AutopaySdk.APTypography> @_projectedValueProperty($typography) final public var typography: AutopaySdk.APTypography {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -639,7 +593,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($primaryButtonStyle) final public var primaryButtonStyle: AutopaySdk.APButtonStyle {
+  @Combine.Published<AutopaySdk.APButtonStyle> @_projectedValueProperty($primaryButtonStyle) final public var primaryButtonStyle: AutopaySdk.APButtonStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -651,7 +605,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($secondaryButtonStyle) final public var secondaryButtonStyle: AutopaySdk.APButtonStyle {
+  @Combine.Published<AutopaySdk.APButtonStyle> @_projectedValueProperty($secondaryButtonStyle) final public var secondaryButtonStyle: AutopaySdk.APButtonStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -663,7 +617,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($tertiaryButtonStyle) final public var tertiaryButtonStyle: AutopaySdk.APButtonStyle {
+  @Combine.Published<AutopaySdk.APButtonStyle> @_projectedValueProperty($tertiaryButtonStyle) final public var tertiaryButtonStyle: AutopaySdk.APButtonStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -675,7 +629,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($bankGridStyle) final public var bankGridStyle: AutopaySdk.APBankGridStyle {
+  @Combine.Published<AutopaySdk.APBankGridStyle> @_projectedValueProperty($bankGridStyle) final public var bankGridStyle: AutopaySdk.APBankGridStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -687,7 +641,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($checkboxStyle) final public var checkboxStyle: AutopaySdk.APCheckboxStyle {
+  @Combine.Published<AutopaySdk.APCheckboxStyle> @_projectedValueProperty($checkboxStyle) final public var checkboxStyle: AutopaySdk.APCheckboxStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -699,7 +653,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($dccPaymentFormStyle) final public var dccPaymentFormStyle: AutopaySdk.APDCCPaymentFormStyle {
+  @Combine.Published<AutopaySdk.APDCCPaymentFormStyle> @_projectedValueProperty($dccPaymentFormStyle) final public var dccPaymentFormStyle: AutopaySdk.APDCCPaymentFormStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -711,7 +665,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($dialogStyle) final public var dialogStyle: AutopaySdk.APDialogStyle {
+  @Combine.Published<AutopaySdk.APDialogStyle> @_projectedValueProperty($dialogStyle) final public var dialogStyle: AutopaySdk.APDialogStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -723,7 +677,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($loaderStyle) final public var loaderStyle: AutopaySdk.APLoaderStyle {
+  @Combine.Published<AutopaySdk.APLoaderStyle> @_projectedValueProperty($loaderStyle) final public var loaderStyle: AutopaySdk.APLoaderStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -735,7 +689,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($paymentMethodButtonStyle) final public var paymentMethodButtonStyle: AutopaySdk.APButtonStyle {
+  @Combine.Published<AutopaySdk.APButtonStyle> @_projectedValueProperty($paymentMethodButtonStyle) final public var paymentMethodButtonStyle: AutopaySdk.APButtonStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -747,7 +701,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($paymentMethodTitleStyle) final public var paymentMethodTitleStyle: AutopaySdk.APPaymentMethodTitleStyle {
+  @Combine.Published<AutopaySdk.APPaymentMethodTitleStyle> @_projectedValueProperty($paymentMethodTitleStyle) final public var paymentMethodTitleStyle: AutopaySdk.APPaymentMethodTitleStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -759,7 +713,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($paymentSummaryStyle) final public var paymentSummaryStyle: AutopaySdk.APPaymentSummaryStyle {
+  @Combine.Published<AutopaySdk.APPaymentSummaryStyle> @_projectedValueProperty($paymentSummaryStyle) final public var paymentSummaryStyle: AutopaySdk.APPaymentSummaryStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -771,7 +725,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($radioButtonStyle) final public var radioButtonStyle: AutopaySdk.APRadioButtonStyle {
+  @Combine.Published<AutopaySdk.APRadioButtonStyle> @_projectedValueProperty($radioButtonStyle) final public var radioButtonStyle: AutopaySdk.APRadioButtonStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -783,7 +737,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($switchStyle) final public var switchStyle: AutopaySdk.APSwitchStyle {
+  @Combine.Published<AutopaySdk.APSwitchStyle> @_projectedValueProperty($switchStyle) final public var switchStyle: AutopaySdk.APSwitchStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -795,7 +749,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($textInputStyle) final public var textInputStyle: AutopaySdk.APTextInputStyle {
+  @Combine.Published<AutopaySdk.APTextInputStyle> @_projectedValueProperty($textInputStyle) final public var textInputStyle: AutopaySdk.APTextInputStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -807,7 +761,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($errorColor) final public var errorColor: AutopaySdk.APColor {
+  @Combine.Published<AutopaySdk.APColor> @_projectedValueProperty($errorColor) final public var errorColor: AutopaySdk.APColor {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -819,7 +773,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($footerIconsColor) final public var footerIconsColor: AutopaySdk.APColor {
+  @Combine.Published<AutopaySdk.APColor> @_projectedValueProperty($footerIconsColor) final public var footerIconsColor: AutopaySdk.APColor {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
@@ -831,9 +785,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(typography: AutopaySdk.APTypography = .init(), primaryButtonStyle: AutopaySdk.APButtonStyle = .init(style: .primary), secondaryButtonStyle: AutopaySdk.APButtonStyle = .init(style: .secondary), tertiaryButtonStyle: AutopaySdk.APButtonStyle = .init(style: .tertiary), bankGridStyle: AutopaySdk.APBankGridStyle = .init(), checkboxStyle: AutopaySdk.APCheckboxStyle = .init(), dccPaymentFormStyle: AutopaySdk.APDCCPaymentFormStyle = .init(), dialogStyle: AutopaySdk.APDialogStyle = .init(), loaderStyle: AutopaySdk.APLoaderStyle = .init(), paymentMethodButtonStyle: AutopaySdk.APButtonStyle = .init(style: .paymentMethod), paymentMethodTitleStyle: AutopaySdk.APPaymentMethodTitleStyle = .init(), paymentSummaryStyle: AutopaySdk.APPaymentSummaryStyle = .init(), radioButtonStyle: AutopaySdk.APRadioButtonStyle = .init(), switchStyle: AutopaySdk.APSwitchStyle = .init(), textInputStyle: AutopaySdk.APTextInputStyle = .init(), errorColor: AutopaySdk.APColor? = nil, footerIconsColor: AutopaySdk.APColor? = nil)
-  #endif
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -844,9 +796,7 @@ extension SwiftUICore.View {
   
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class APGatewayBaseViewModelData : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public init(config: AutopaySdk.APConfig, amount: Swift.Double, summary: Swift.String? = nil, customerEmail: Swift.String? = nil, customerPhone: Swift.String? = nil, blikContentHeaderTitle: Swift.String? = nil, bankContentHeaderTitle: Swift.String? = nil, paymentViewCallback: AutopaySdk.APPPaymentViewCallback? = nil, payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, customerFeeDidUpdatedCallback: AutopaySdk.APCustomerFeeDidUpdatedCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil)
-  #endif
+  @objc public init(config: AutopaySdk.APConfig, amount: Swift.Double, orderId: Swift.String? = nil, summary: Swift.String? = nil, customerEmail: Swift.String? = nil, customerPhone: Swift.String? = nil, blikContentHeaderTitle: Swift.String? = nil, bankContentHeaderTitle: Swift.String? = nil, paymentViewCallback: AutopaySdk.APPPaymentViewCallback? = nil, payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, customerFeeDidUpdatedCallback: AutopaySdk.APCustomerFeeDidUpdatedCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil)
   @objc deinit
 }
 public struct RegulationsModel {
@@ -863,9 +813,7 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdk.APError?) -> Swif
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APGatewayListView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdk.APGatewayBaseViewModelData, excludedGatewayPaymentGroups: [AutopaySdk.APGatewayPaymentGroup] = [], selectedPaymentGroupHandler: @escaping (AutopaySdk.APGatewayPaymentGroup?) -> Swift.Void, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -877,9 +825,7 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdk.APError?) -> Swif
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APApplePayGatewayView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdk.APGatewayBaseViewModelData, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -891,9 +837,7 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdk.APError?) -> Swif
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APBankTransferGatewayView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdk.APGatewayBaseViewModelData, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -905,25 +849,19 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdk.APError?) -> Swif
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APBlikGatewayView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdk.APGatewayBaseViewModelData, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10AutopaySdk17APBlikGatewayViewV4bodyQrvp", 0) __
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency final public class APCardActivationGatewayContainerView : UIKit.UIView {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdk.APConfig, styleManager: AutopaySdk.APStyleManager = .init(), payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdk.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil)
-  #endif
+  @objc @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdk.APConfig, orderId: Swift.String? = nil, styleManager: AutopaySdk.APStyleManager = .init(), payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdk.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil)
   @objc @_Concurrency.MainActor @preconcurrency final public func attach(to parent: UIKit.UIViewController)
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APCardActivationGatewayView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdk.APConfig, payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdk.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
-  #endif
+  @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdk.APConfig, orderId: Swift.String? = nil, payTappedCallback: AutopaySdk.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdk.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdk.APTokenExpiredCallback? = nil, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -935,9 +873,7 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdk.APError?) -> Swif
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APCardGatewayView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdk.APGatewayBaseViewModelData, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -949,18 +885,14 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdk.APError?) -> Swif
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APVisaGatewayView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdk.APGatewayBaseViewModelData, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10AutopaySdk17APVisaGatewayViewV4bodyQrvp", 0) __
 }
 public struct PaymentSummaryModel {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(summary: Swift.String, amount: Swift.Double, customerFee: AutopaySdk.APCustomerFee? = nil, currencySymbol: Swift.String)
-  #endif
 }
 
 @_Concurrency.MainActor final public class PaymentSummaryViewModel : Combine.ObservableObject {
@@ -985,16 +917,12 @@ public struct PaymentSummaryModel {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WebViewCoordinator : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation _: WebKit.WKNavigation!, withError error: any Swift.Error)
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
   @objc deinit
 }
 extension AutopaySdk.WebViewCoordinator : WebKit.WKUIDelegate {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for _: WebKit.WKNavigationAction, windowFeatures _: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webViewDidClose(_ webView: WebKit.WKWebView)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKPermissionDecision) -> Swift.Void)
 }
@@ -1009,9 +937,7 @@ extension AutopaySdk.WebViewCoordinator : WebKit.WKUIDelegate {
 }
 @objc final public class Autopay : ObjectiveC.NSObject {
   public init(config: AutopaySdk.APConfig)
-  #if compiler(>=5.3) && $NonescapableTypes
   final public class func getSdkVersion() -> Swift.String?
-  #endif
   @_Concurrency.MainActor final public func getGatewayList() async throws -> [AutopaySdk.APGateway]
   @_Concurrency.MainActor final public func getCustomerFee(gatewayId: Swift.Int, amount: Swift.Double) async throws -> AutopaySdk.APCustomerFee
   @_Concurrency.MainActor final public func getRegulations(gatewayId: Swift.Int) async throws -> AutopaySdk.APRegulations
@@ -1021,24 +947,12 @@ extension AutopaySdk.WebViewCoordinator : WebKit.WKUIDelegate {
 }
 @objc @objcMembers public class AutopayObjC : ObjectiveC.NSObject {
   @objc public init(config: AutopaySdk.APConfig)
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public class func getSdkVersion() -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getGatewayList(completion: @escaping ([AutopaySdk.APGateway]?, Foundation.NSError?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getCustomerFee(gatewayId: Swift.Int, amount: Swift.Double, completion: @escaping (AutopaySdk.APCustomerFee?, Foundation.NSError?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getRegulations(gatewayId: Swift.Int, completion: @escaping (AutopaySdk.APRegulationsObjC?, Foundation.NSError?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func startTransaction(transactionData: AutopaySdk.APTransactionData, completion: @escaping (AutopaySdk.APTransaction?, Foundation.NSError?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getTransactionStatus(orderId: Swift.String, completion: @escaping (AutopaySdk.APTransactionStatus?, Foundation.NSError?) -> Swift.Void)
-  #endif
   @objc public func getConfig() -> AutopaySdk.APConfig
   @objc deinit
 }

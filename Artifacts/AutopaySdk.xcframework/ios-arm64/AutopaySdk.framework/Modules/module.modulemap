@@ -7,5 +7,4 @@ framework module AutopaySdk {
 
 module AutopaySdk.Swift {
   header "AutopaySdk-Swift.h"
-  requires objc
 }
