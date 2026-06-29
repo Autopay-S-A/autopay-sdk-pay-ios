@@ -876,6 +876,29 @@
         }
       }
     },
+    "demo_service_config_use_web_blik" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blik in WebView"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blik in WebView"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blik w WebView"
+          }
+        }
+      }
+    },
     "demo_status_error" : {
       "extractionState" : "manual",
       "localizations" : {

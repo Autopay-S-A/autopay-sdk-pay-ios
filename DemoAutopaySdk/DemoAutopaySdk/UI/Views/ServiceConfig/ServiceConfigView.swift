@@ -57,14 +57,26 @@ struct ServiceConfigView: View {
                 .customScaledFont(.labelXLarge)
             VStack(spacing: 16) {
                 ForEach(ServiceConfigType.editable, id: \.self) { type in
-                    TextFieldServiceConfigView(
-                        type: type,
-                        value: Binding(get: {
-                            viewModel.paramValues[type.rawValue] ?? ""
+                    switch type.viewType {
+                    case .textField:
+                        TextFieldServiceConfigView(
+                            type: type,
+                            value: Binding(get: {
+                                viewModel.paramValues[type.rawValue] ?? ""
+                            }, set: { value in
+                                viewModel.paramValues[type.rawValue] = value
+                            })
+                        )
+                    case .toggle:
+                        Toggle(isOn: Binding(get: {
+                            let value = viewModel.paramValues[type.rawValue] ?? ""
+                            return Bool(value) ?? false
                         }, set: { value in
-                            viewModel.paramValues[type.rawValue] = value
-                        })
-                    )
+                            viewModel.paramValues[type.rawValue] = "\(value)"
+                        })) {
+                            Text(LocalizedStringKey(type.titleKey))
+                        }.toggleStyle(PrimaryToggleStyle())
+                    }
                 }
             }
         }
