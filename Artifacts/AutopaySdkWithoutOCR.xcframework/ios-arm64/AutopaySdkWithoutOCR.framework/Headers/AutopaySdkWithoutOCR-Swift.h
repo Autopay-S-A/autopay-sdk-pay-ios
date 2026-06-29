@@ -347,7 +347,6 @@ extern "C" {
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
-@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 @import WebKit;
@@ -373,19 +372,13 @@ extern "C" {
 
 #if defined(__OBJC__)
 
-@class APGatewayBaseViewModelData;
-@class APStyleManager;
 @class NSCoder;
-@class UIViewController;
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR30APApplePayGatewayContainerView")
 @interface APApplePayGatewayContainerView : UIView
-- (nonnull instancetype)initWithData:(APGatewayBaseViewModelData * _Nonnull)data styleManager:(APStyleManager * _Nonnull)styleManager sizeChanged:(void (^ _Nonnull)(CGSize))sizeChanged OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class APColor;
 /// A customizable style container that defines the visual appearance and layout
 /// for a grid of bank items within the SDK.
 /// Use <code>APBankGridStyle</code> to configure how bank options are presented in grid form,
@@ -447,42 +440,21 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR30APApplePayGatewayContainerView")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR15APBankGridStyle")
 @interface APBankGridStyle : NSObject
-/// Number of columns displayed in the bank grid. Default: 3.
-@property (nonatomic) NSInteger columns;
-/// Fixed height for each bank cell in points. Default: 80.
-@property (nonatomic) CGFloat cellHeight;
-/// Corner radius applied to each bank cell in points. Default: 12.
-@property (nonatomic) CGFloat radius;
-/// Background color for bank cells (appearance-aware).
-/// Default: light #FFFFFF, dark #0F0F0F.
-@property (nonatomic, strong) APColor * _Nonnull backgroundColor;
-/// Border color used when a bank cell is selected (checked).
-/// Default: light #2E72BF, dark #158EE6.
-@property (nonatomic, strong) APColor * _Nonnull checkedBorderColor;
-/// Border color used when a bank cell is not selected (unchecked).
-/// Default: light #808080 at 40% opacity, dark #CCCCCC at 40% opacity.
-@property (nonatomic, strong) APColor * _Nonnull uncheckedBorderColor;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR34APBankTransferGatewayContainerView")
 @interface APBankTransferGatewayContainerView : UIView
-- (nonnull instancetype)initWithData:(APGatewayBaseViewModelData * _Nonnull)data styleManager:(APStyleManager * _Nonnull)styleManager sizeChanged:(void (^ _Nonnull)(CGSize))sizeChanged OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APBlikGatewayContainerView")
 @interface APBlikGatewayContainerView : UIView
-- (nonnull instancetype)initWithData:(APGatewayBaseViewModelData * _Nonnull)data styleManager:(APStyleManager * _Nonnull)styleManager sizeChanged:(void (^ _Nonnull)(CGSize))sizeChanged OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class APTextStyle;
-SWIFT_ENUM_FWD_DECL(NSInteger, APButtonStyleType)
 /// A customizable style container that defines the visual appearance
 /// for button components within the SDK.
 /// Use <code>APButtonStyle</code> to configure how buttons look in enabled and disabled states,
@@ -558,344 +530,19 @@ SWIFT_ENUM_FWD_DECL(NSInteger, APButtonStyleType)
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APButtonStyle")
 @interface APButtonStyle : NSObject
-/// Background color for the button when it is enabled/active.
-@property (nonatomic, strong) APColor * _Nonnull containerColor;
-/// Background color for the button when it is disabled or inactive.
-@property (nonatomic, strong) APColor * _Nonnull containerInactiveColor;
-/// Border color for the button when it is enabled/active.
-@property (nonatomic, strong) APColor * _Nonnull borderColor;
-/// Border color for the button when it is disabled or inactive.
-@property (nonatomic, strong) APColor * _Nonnull borderInactiveColor;
-/// Text style (font and color) for the button label when enabled/active.
-@property (nonatomic, strong) APTextStyle * _Nonnull textStyle;
-/// Text style (font and color) for the button label when disabled or inactive.
-@property (nonatomic, strong) APTextStyle * _Nonnull textInactiveStyle;
-/// Optional tint color applied to any icon displayed within the button.
-@property (nonatomic, strong) APColor * _Nullable iconColor;
-/// Corner radius applied to the button’s container (use <code>.infinity</code> for pill shape).
-@property (nonatomic) CGFloat cornerRadius;
-/// Width of the button’s border in points.
-@property (nonatomic) CGFloat borderWidth;
-/// Minimum height of the button in points.
-@property (nonatomic) CGFloat minHeight;
-- (nonnull instancetype)initWithContainerColor:(APColor * _Nonnull)containerColor containerInactiveColor:(APColor * _Nonnull)containerInactiveColor borderColor:(APColor * _Nonnull)borderColor borderInactiveColor:(APColor * _Nonnull)borderInactiveColor textStyle:(APTextStyle * _Nonnull)textStyle textInactiveStyle:(APTextStyle * _Nonnull)textInactiveStyle iconColor:(APColor * _Nullable)iconColor cornerRadius:(CGFloat)cornerRadius borderWidth:(CGFloat)borderWidth minHeight:(CGFloat)minHeight OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithStyle:(enum APButtonStyleType)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-/// A predefined set of style presets that define the visual appearance
-/// for button components within the SDK.
-/// Use <code>APButtonStyleType</code> to apply consistent, ready-made configurations for
-/// commonly used button categories (e.g., primary, secondary, tertiary, paymentMethod).
-/// Each preset encapsulates container and border colors, text styles for enabled/disabled
-/// states, optional icon tint, corner radius, border width, and minimum height.
-/// note:
-/// Values provided here are defaults for each preset and can be consumed by
-/// <code>APButtonStyle(style:)</code>. Prefer these presets for standard appearances to keep
-/// consistency across the SDK.
-/// Properties:
-/// <ul>
-///   <li>
-///     <code>containerColor</code>: Background color for the button when enabled.
-///   </li>
-///   <li>
-///     <code>containerInactiveColor</code>: Background color for the button when disabled.
-///   </li>
-///   <li>
-///     <code>borderColor</code>: Border color for the button when enabled.
-///   </li>
-///   <li>
-///     <code>borderInactiveColor</code>: Border color for the button when disabled.
-///   </li>
-///   <li>
-///     <code>textStyle</code>: Text style (font and color) for the enabled state.
-///   </li>
-///   <li>
-///     <code>textInactiveStyle</code>: Text style (font and color) for the disabled state.
-///   </li>
-///   <li>
-///     <code>iconColor</code>: Optional tint color for any icon displayed in the button (when applicable).
-///   </li>
-///   <li>
-///     <code>cornerRadius</code>: Corner radius applied to the button’s container (commonly <code>.infinity</code> for pill shape).
-///   </li>
-///   <li>
-///     <code>borderWidth</code>: Width of the button’s border, in points.
-///   </li>
-///   <li>
-///     <code>minHeight</code>: Minimum height of the button, in points (defaults to 48).
-///   </li>
-/// </ul>
-/// Example:
-/// <ul>
-///   <li>
-///     Use <code>.primary</code> for high-emphasis, filled actions.
-///   </li>
-///   <li>
-///     Use <code>.secondary</code> for outlined, medium-emphasis actions.
-///   </li>
-///   <li>
-///     Use <code>.tertiary</code> for low-emphasis or text-like actions.
-///   </li>
-///   <li>
-///     Use <code>.paymentMethod</code> for payment method selection buttons with neutral background and icon support.
-///   </li>
-/// </ul>
-/// Thread-safety:
-/// <ul>
-///   <li>
-///     This enum provides static configuration and is inherently thread-safe; use from the main thread when
-///     wiring into UI components.
-///   </li>
-/// </ul>
-/// Accessibility:
-/// <ul>
-///   <li>
-///     Ensure sufficient contrast for text and backgrounds across enabled and disabled states.
-///   </li>
-///   <li>
-///     Maintain adequate <code>minHeight</code> (48pt or higher) for comfortable tap targets.
-///   </li>
-/// </ul>
-/// Case details (resolved values):
-/// <ul>
-///   <li>
-///     primary:
-///     <ul>
-///       <li>
-///         containerColor: light #2E72BF, dark #158EE6
-///       </li>
-///       <li>
-///         containerInactiveColor: light #2E72BF @ 40%, dark #158EE6 @ 40%
-///       </li>
-///       <li>
-///         borderColor: clear
-///       </li>
-///       <li>
-///         borderInactiveColor: clear
-///       </li>
-///       <li>
-///         textStyle:
-///         <ul>
-///           <li>
-///             font: System, 18pt, Regular
-///           </li>
-///           <li>
-///             color: light #FFFFFF, dark #FAFAFA
-///           </li>
-///         </ul>
-///       </li>
-///       <li>
-///         textInactiveStyle:
-///         <ul>
-///           <li>
-///             font: System, 18pt, Regular
-///           </li>
-///           <li>
-///             color: light #FFFFFF @ 40%, dark #FAFAFA @ 40%
-///           </li>
-///         </ul>
-///       </li>
-///       <li>
-///         iconColor: none
-///       </li>
-///       <li>
-///         cornerRadius: infinity
-///       </li>
-///       <li>
-///         borderWidth: 0
-///       </li>
-///       <li>
-///         minHeight: 48
-///       </li>
-///     </ul>
-///   </li>
-///   <li>
-///     secondary:
-///     <ul>
-///       <li>
-///         containerColor: clear
-///       </li>
-///       <li>
-///         containerInactiveColor: clear
-///       </li>
-///       <li>
-///         borderColor: light #2E72BF, dark #158EE6
-///       </li>
-///       <li>
-///         borderInactiveColor: light #2E72BF @ 40%, dark #158EE6 @ 40%
-///       </li>
-///       <li>
-///         textStyle:
-///         <ul>
-///           <li>
-///             font: System, 18pt, Regular
-///           </li>
-///           <li>
-///             color: light #2E72BF, dark #158EE6
-///           </li>
-///         </ul>
-///       </li>
-///       <li>
-///         textInactiveStyle:
-///         <ul>
-///           <li>
-///             font: System, 18pt, Regular
-///           </li>
-///           <li>
-///             color: light #2E72BF @ 40%, dark #158EE6 @ 40%
-///           </li>
-///         </ul>
-///       </li>
-///       <li>
-///         iconColor: none
-///       </li>
-///       <li>
-///         cornerRadius: infinity
-///       </li>
-///       <li>
-///         borderWidth: 1
-///       </li>
-///       <li>
-///         minHeight: 48
-///       </li>
-///     </ul>
-///   </li>
-///   <li>
-///     tertiary:
-///     <ul>
-///       <li>
-///         containerColor: clear
-///       </li>
-///       <li>
-///         containerInactiveColor: clear
-///       </li>
-///       <li>
-///         borderColor: light #2E72BF, dark #158EE6
-///       </li>
-///       <li>
-///         borderInactiveColor: light #2E72BF @ 40%, dark #158EE6 @ 40%
-///       </li>
-///       <li>
-///         textStyle:
-///         <ul>
-///           <li>
-///             font: System, 12pt, Regular
-///           </li>
-///           <li>
-///             color: light #2E72BF, dark #158EE6
-///           </li>
-///         </ul>
-///       </li>
-///       <li>
-///         textInactiveStyle:
-///         <ul>
-///           <li>
-///             font: System, 12pt, Regular
-///           </li>
-///           <li>
-///             color: light #2E72BF @ 40%, dark #158EE6 @ 40%
-///           </li>
-///         </ul>
-///       </li>
-///       <li>
-///         iconColor: none
-///       </li>
-///       <li>
-///         cornerRadius: infinity
-///       </li>
-///       <li>
-///         borderWidth: 1
-///       </li>
-///       <li>
-///         minHeight: 48
-///       </li>
-///     </ul>
-///   </li>
-///   <li>
-///     paymentMethod:
-///     <ul>
-///       <li>
-///         containerColor: light #FFFFFF, dark #0F0F0F
-///       </li>
-///       <li>
-///         containerInactiveColor: light #FFFFFF, dark #0F0F0F
-///       </li>
-///       <li>
-///         borderColor: light #808080 @ 20%, dark #CCCCCC @ 20%
-///       </li>
-///       <li>
-///         borderInactiveColor: light #808080 @ 20%, dark #CCCCCC @ 20%
-///       </li>
-///       <li>
-///         textStyle:
-///         <ul>
-///           <li>
-///             font: System, 14pt, Regular
-///           </li>
-///           <li>
-///             color: light #282828, dark #FAFAFA
-///           </li>
-///         </ul>
-///       </li>
-///       <li>
-///         textInactiveStyle:
-///         <ul>
-///           <li>
-///             font: System, 14pt, Regular
-///           </li>
-///           <li>
-///             color: light #282828, dark #FAFAFA
-///           </li>
-///         </ul>
-///       </li>
-///       <li>
-///         iconColor: light #000000, dark #FFFFFF
-///       </li>
-///       <li>
-///         cornerRadius: infinity
-///       </li>
-///       <li>
-///         borderWidth: 1
-///       </li>
-///       <li>
-///         minHeight: 48
-///       </li>
-///     </ul>
-///   </li>
-/// </ul>
-typedef SWIFT_ENUM(NSInteger, APButtonStyleType, open) {
-/// High-emphasis action button with filled background and contrasting text.
-  APButtonStyleTypePrimary = 0,
-/// Medium-emphasis action with outlined appearance and primary-colored content.
-  APButtonStyleTypeSecondary = 1,
-/// Low-emphasis, text-forward action suitable for inline or less prominent interactions.
-  APButtonStyleTypeTertiary = 2,
-/// Style tailored for payment method selection with neutral background and optional icon.
-  APButtonStyleTypePaymentMethod = 3,
-};
-
-@class APConfig;
-@class NSString;
-SWIFT_ENUM_FWD_DECL(NSInteger, APGatewayPaymentGroup)
-@class APGateway;
-@class APTransactionData;
-@class APTransaction;
-@class APError;
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR36APCardActivationGatewayContainerView")
 @interface APCardActivationGatewayContainerView : UIView
-- (nonnull instancetype)initWithApConfig:(APConfig * _Nonnull)apConfig orderId:(NSString * _Nullable)orderId styleManager:(APStyleManager * _Nonnull)styleManager payTappedCallback:(void (^ _Nullable)(enum APGatewayPaymentGroup, APGateway * _Nonnull, APTransactionData * _Nonnull))payTappedCallback paymentViewCallback:(void (^ _Nullable)(APTransaction * _Nullable, APError * _Nullable))paymentViewCallback tokenExpiredCallback:(void (^ _Nullable)(APError * _Nullable))tokenExpiredCallback OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APCardGatewayContainerView")
 @interface APCardGatewayContainerView : UIView
-- (nonnull instancetype)initWithData:(APGatewayBaseViewModelData * _Nonnull)data styleManager:(APStyleManager * _Nonnull)styleManager sizeChanged:(void (^ _Nonnull)(CGSize))sizeChanged OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -952,27 +599,14 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APCardGatewayContainerView")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR15APCheckboxStyle")
 @interface APCheckboxStyle : NSObject
-/// Color used when the checkbox is selected (checked).
-/// Default: light #2E72BF, dark #158EE6.
-@property (nonatomic, strong) APColor * _Nonnull checkedColor;
-/// Color used when the checkbox is not selected (unchecked).
-/// Default: light #808080, dark #CCCCCC.
-@property (nonatomic, strong) APColor * _Nonnull uncheckedColor;
-/// Color used to represent an error state (e.g., validation failure).
-/// Default: SDK error color (light #FF3B30, dark #FF453A).
-@property (nonatomic, strong) APColor * _Nonnull errorColor;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIColor;
 /// A lightweight container that defines a paired color for Light and Dark appearances,
 /// enabling consistent, appearance-aware color usage across the SDK.
 /// Use <code>APColor</code> to provide a single token that contains both light and dark variants
 /// of a SwiftUI <code>Color</code>. You can supply distinct values for each appearance or a single
 /// color to be used in both modes.
-/// note:
-/// This type is <code>@objcMembers</code> and inherits from <code>NSObject</code> for potential Objective‑C
-/// interoperability, while its primary use remains within Swift and SwiftUI contexts.
 /// Properties:
 /// <ul>
 ///   <li>
@@ -1017,37 +651,18 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR15APCheckboxStyle")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7APColor")
 @interface APColor : NSObject
-- (nonnull instancetype)initWithLight:(UIColor * _Nonnull)light dark:(UIColor * _Nonnull)dark OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_ENUM_FWD_DECL(NSInteger, APEnvironmentEnum)
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR8APConfig")
 @interface APConfig : NSObject
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token serviceId:(NSInteger)serviceId acceptorId:(NSInteger)acceptorId applePayMerchantId:(NSString * _Nullable)applePayMerchantId environment:(enum APEnvironmentEnum)environment contextPath:(NSString * _Nullable)contextPath currencies:(NSArray<NSString *> * _Nullable)currencies countryCode:(NSString * _Nullable)countryCode defaultRegulationsCode:(NSString * _Nullable)defaultRegulationsCode regulationsHidden:(NSArray<NSNumber *> * _Nonnull)regulationsHidden;
-- (void)setTokenWithToken:(NSString * _Nonnull)token;
-- (void)setCurrenciesWithCurrencies:(NSArray<NSString *> * _Nonnull)currencies;
-- (void)setCountryCodeWithCountryCode:(NSString * _Nonnull)countryCode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-typedef SWIFT_ENUM(NSInteger, APConfigurationError, open) {
-  APConfigurationErrorUnparsableTokenError = 0,
-  APConfigurationErrorAuthorizationEncryptionError = 1,
-  APConfigurationErrorInvalidUrlError = 2,
-};
-static NSString * _Nonnull const APConfigurationErrorDomain = @"AutopaySdkWithoutOCR.APConfigurationError";
-
-typedef SWIFT_ENUM(NSInteger, APConfirmation, open) {
-  APConfirmationConfirmed = 0,
-  APConfirmationNotConfirmed = 1,
-};
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR10APCurrency")
 @interface APCurrency : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull currency;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -1055,9 +670,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR10APCurrency")
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APCustomerFee")
 @interface APCustomerFee : NSObject
-@property (nonatomic, readonly) double customerFee;
-@property (nonatomic, readonly, copy) NSString * _Nonnull receiverName;
-- (nonnull instancetype)initWithCustomerFee:(double)customerFee receiverName:(NSString * _Nonnull)receiverName OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1117,18 +729,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APCustomerFee")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR21APDCCPaymentFormStyle")
 @interface APDCCPaymentFormStyle : NSObject
-/// Border color used when a DCC option is selected.
-/// Default: light #2E72BF, dark #158EE6.
-@property (nonatomic, strong) APColor * _Nonnull selectedBorderColor;
-/// Border color used when a DCC option is not selected.
-/// Default: light #808080 at 20% opacity, dark #CCCCCC at 20% opacity.
-@property (nonatomic, strong) APColor * _Nonnull unselectedBorderColor;
-/// Corner radius applied to each DCC option cell, in points.
-/// Default: 16.
-@property (nonatomic) CGFloat cellRadius;
-/// Background color for DCC option cells (appearance-aware).
-/// Default: light #FFFFFF, dark #0F0F0F.
-@property (nonatomic, strong) APColor * _Nonnull cellBackgroundColor;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1173,76 +773,17 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR21APDCCPaymentFormStyle")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APDialogStyle")
 @interface APDialogStyle : NSObject
-/// Corner radius applied to the dialog container, in points.
-/// Default: 16.
-@property (nonatomic) CGFloat dialogRadius;
-/// Background color of the dialog container (appearance-aware).
-/// Default: light #F5F5F5, dark #1F1F1F.
-@property (nonatomic, strong) APColor * _Nonnull dialogBackgroundColor;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, APEnvironmentEnum, open) {
-  APEnvironmentEnumProd = 0,
-  APEnvironmentEnumDev = 1,
-};
-
-SWIFT_ENUM_FWD_DECL(NSInteger, APErrorEnum)
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7APError")
 @interface APError : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nullable message;
-@property (nonatomic, readonly) enum APErrorEnum status;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, APErrorEnum, open) {
-  APErrorEnumInsufficientStartAmount = 0,
-  APErrorEnumBankDisabled = 1,
-  APErrorEnumBlockMultipleTransactions = 2,
-  APErrorEnumBlockPaidTransactions = 3,
-  APErrorEnumOutdatedError = 4,
-  APErrorEnumInternalServerError = 5,
-  APErrorEnumUnexpectedError = 6,
-  APErrorEnumUnexpectedFormatError = 7,
-  APErrorEnumErrFieldNotFound = 8,
-  APErrorEnumErrBadClientSource = 9,
-  APErrorEnumNrParametersError = 10,
-  APErrorEnumTransactionOutdated = 11,
-  APErrorEnumLinkValidityTimeOutdated = 12,
-  APErrorEnumTransactionValidityTimeOutdated = 13,
-  APErrorEnumMultiplyTransaction = 14,
-  APErrorEnumTransactionCanceled = 15,
-  APErrorEnumMultiplyPaidTransaction = 16,
-  APErrorEnumBankTemporaryMaintenance = 17,
-  APErrorEnumStartAmountOutOfRange = 18,
-  APErrorEnumNonAccountedLimitExceeded = 19,
-  APErrorEnumParsingError = 20,
-  APErrorEnumEmptyTransactionError = 21,
-  APErrorEnumNotConfirmedError = 22,
-  APErrorEnumConnectionError = 23,
-  APErrorEnumGeneralError = 24,
-  APErrorEnumTicketUsed = 25,
-  APErrorEnumWrongTicket = 26,
-  APErrorEnumTicketExpired = 27,
-  APErrorEnumEmptyGatewaysError = 28,
-  APErrorEnumInvalidUrlError = 29,
-  APErrorEnumPaywayNotFound = 30,
-  APErrorEnumTokenExpired = 31,
-};
-
-SWIFT_ENUM_FWD_DECL(NSInteger, APGatewayType)
-@class NSUUID;
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR9APGateway")
 @interface APGateway : NSObject
-@property (nonatomic, readonly) NSInteger gatewayId;
-@property (nonatomic, readonly, copy) NSString * _Nullable gatewayName;
-@property (nonatomic, readonly) enum APGatewayType gatewayType;
-@property (nonatomic, readonly, copy) NSString * _Nullable bankName;
-@property (nonatomic, readonly, copy) NSString * _Nullable iconUrl;
-@property (nonatomic, readonly, copy) NSString * _Nullable stateDate;
-@property (nonatomic, readonly, copy) NSArray<APCurrency *> * _Nonnull currencyList;
-@property (nonatomic, readonly, copy) NSUUID * _Nonnull id;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -1250,47 +791,15 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR9APGateway")
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APGatewayBaseViewModelData")
 @interface APGatewayBaseViewModelData : NSObject
-- (nonnull instancetype)initWithConfig:(APConfig * _Nonnull)config amount:(double)amount orderId:(NSString * _Nullable)orderId summary:(NSString * _Nullable)summary customerEmail:(NSString * _Nullable)customerEmail customerPhone:(NSString * _Nullable)customerPhone blikContentHeaderTitle:(NSString * _Nullable)blikContentHeaderTitle bankContentHeaderTitle:(NSString * _Nullable)bankContentHeaderTitle paymentViewCallback:(void (^ _Nullable)(APTransaction * _Nullable, APError * _Nullable))paymentViewCallback payTappedCallback:(void (^ _Nullable)(enum APGatewayPaymentGroup, APGateway * _Nonnull, APTransactionData * _Nonnull))payTappedCallback customerFeeDidUpdatedCallback:(void (^ _Nullable)(APCustomerFee * _Nullable))customerFeeDidUpdatedCallback tokenExpiredCallback:(void (^ _Nullable)(APError * _Nullable))tokenExpiredCallback OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APGatewayListContainerView")
 @interface APGatewayListContainerView : UIView
-- (nonnull instancetype)initWithData:(APGatewayBaseViewModelData * _Nonnull)data styleManager:(APStyleManager * _Nonnull)styleManager excludedGatewayPaymentGroups:(NSArray<NSNumber *> * _Nonnull)excludedGatewayPaymentGroups selectedPaymentGroupHandler:(void (^ _Nonnull)(enum APGatewayPaymentGroup))selectedPaymentGroupHandler deselectedPaymentGroupHandler:(void (^ _Nonnull)(void))deselectedPaymentGroupHandler sizeChanged:(void (^ _Nonnull)(CGSize))sizeChanged OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
-
-typedef SWIFT_ENUM(NSInteger, APGatewayPaymentGroup, open) {
-  APGatewayPaymentGroupBlik = 0,
-  APGatewayPaymentGroupCard = 1,
-  APGatewayPaymentGroupBankTransfer = 2,
-  APGatewayPaymentGroupVisa = 3,
-  APGatewayPaymentGroupApplePay = 4,
-};
-
-typedef SWIFT_ENUM(NSInteger, APGatewayType, open) {
-  APGatewayTypeBlik = 0,
-  APGatewayTypeAutoPaymentBlik = 1,
-  APGatewayTypePbl = 2,
-  APGatewayTypeFastTransaction = 3,
-  APGatewayTypeCard = 4,
-  APGatewayTypeAutoPaymentCard = 5,
-  APGatewayTypeInstallments = 6,
-  APGatewayTypePis = 7,
-  APGatewayTypeAis = 8,
-  APGatewayTypeOtp = 9,
-  APGatewayTypeMasterPass = 10,
-  APGatewayTypeGooglePay = 11,
-  APGatewayTypeVisaCheckout = 12,
-  APGatewayTypeApplePay = 13,
-  APGatewayTypeBankTransfer = 14,
-  APGatewayTypeAutoPaymentDcb = 15,
-  APGatewayTypeVisaMobile = 16,
-  APGatewayTypeUndefined = 17,
-};
 
 /// A customizable style container that defines the visual appearance
 /// for loading indicators/spinners used across the SDK.
@@ -1334,28 +843,16 @@ typedef SWIFT_ENUM(NSInteger, APGatewayType, open) {
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APLoaderStyle")
 @interface APLoaderStyle : NSObject
-/// Default diameter of content loaders in points.
-/// Used by LoaderView for <code>.content</code> type. Default: 60.
-@property (nonatomic) CGFloat size;
-/// Appearance-aware color for the spinner arc.
-/// Default: primaryColor (light #2E72BF, dark #158EE6).
-@property (nonatomic, strong) APColor * _Nonnull color;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR5APLog")
 @interface APLog : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL SHOW_LOG;)
-+ (BOOL)SHOW_LOG SWIFT_WARN_UNUSED_RESULT;
-+ (void)setSHOW_LOG:(BOOL)value;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7APParam")
 @interface APParam : NSObject
-- (nonnull instancetype)initWithName:(NSString * _Nonnull)name value:(NSString * _Nonnull)value OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithName:(NSString * _Nonnull)name value:(NSString * _Nonnull)value additionalAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)additionalAttributes;
-- (void)addAdditionalAttributeWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1413,29 +910,8 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7APParam")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR25APPaymentMethodTitleStyle")
 @interface APPaymentMethodTitleStyle : NSObject
-/// Background color for the title container (appearance-aware).
-/// Default: light <code>#FFFFFF</code>, dark <code>#0F0F0F</code>.
-@property (nonatomic, strong) APColor * _Nonnull backgroundColor;
-/// Tint color for the leading icon (appearance-aware).
-/// Default: light <code>#000000</code>, dark <code>#FFFFFF</code>.
-@property (nonatomic, strong) APColor * _Nonnull iconColor;
-/// Typography style applied to the title text.
-/// Default font: System 16pt Regular.
-/// Default color: light <code>#282828</code>, dark <code>#FAFAFA</code>.
-@property (nonatomic, strong) APTextStyle * _Nonnull textStyle;
-/// Corner radius applied to the title container in points.
-/// Default: 16.
-@property (nonatomic) CGFloat radius;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-typedef SWIFT_ENUM(NSInteger, APPaymentStatus, open) {
-  APPaymentStatusSuccess = 0,
-  APPaymentStatusSuccessMany = 1,
-  APPaymentStatusPending = 2,
-  APPaymentStatusFailure = 3,
-  APPaymentStatusUnknown = -1,
-};
 
 /// A customizable style container that defines the visual appearance and layout
 /// for the payment summary section within the SDK.
@@ -1495,41 +971,17 @@ typedef SWIFT_ENUM(NSInteger, APPaymentStatus, open) {
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR21APPaymentSummaryStyle")
 @interface APPaymentSummaryStyle : NSObject
-/// Background color for the payment summary container (appearance-aware).
-/// Default: light #FFFFFF, dark #0F0F0F.
-@property (nonatomic, strong) APColor * _Nonnull backgroundColor;
-/// Border color applied to the payment summary container.
-/// Default: transparent.
-@property (nonatomic, strong) APColor * _Nonnull borderColor;
-/// Color of divider lines separating rows or sections within the summary (appearance-aware).
-/// Default: light #808080 at 20% opacity, dark #CCCCCC at 20% opacity.
-@property (nonatomic, strong) APColor * _Nonnull dividerColor;
-/// Thickness of the container border in points.
-/// Default: 0.
-@property (nonatomic) CGFloat borderWidth;
-/// Thickness of divider lines in points.
-/// Default: 1.
-@property (nonatomic) CGFloat dividerHeight;
-/// Corner radius applied to the payment summary container in points.
-/// Default: 16.
-@property (nonatomic) CGFloat radius;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR9APProduct")
 @interface APProduct : NSObject
-- (nonnull instancetype)initWithSubAmount:(NSString * _Nonnull)subAmount params:(NSArray<APParam *> * _Nonnull)params OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithSubAmount:(NSString * _Nonnull)subAmount param:(APParam * _Nonnull)param;
-- (void)addParam:(APParam * _Nonnull)param;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APProductList")
 @interface APProductList : NSObject
-- (nonnull instancetype)initWithProductList:(NSArray<APProduct *> * _Nonnull)productList OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithProduct:(APProduct * _Nonnull)product;
-- (void)addProductWithProduct:(APProduct * _Nonnull)product;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1577,80 +1029,7 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APProductList")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR18APRadioButtonStyle")
 @interface APRadioButtonStyle : NSObject
-/// Color used when the radio button is selected (checked).
-/// Default: light #2E72BF, dark #158EE6.
-@property (nonatomic, strong) APColor * _Nonnull checkedColor;
-/// Color used when the radio button is not selected (unchecked).
-/// Default: light #808080, dark #CCCCCC.
-@property (nonatomic, strong) APColor * _Nonnull uncheckedColor;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-typedef SWIFT_ENUM(NSInteger, APRecurringAcceptanceStateEnum, open) {
-  APRecurringAcceptanceStateEnumAccepted = 0,
-  APRecurringAcceptanceStateEnumNotApplicable = 1,
-  APRecurringAcceptanceStateEnumForce = 2,
-  APRecurringAcceptanceStateEnumUnknown = 3,
-};
-
-typedef SWIFT_ENUM(NSInteger, APRecurringActionEnum, open) {
-  APRecurringActionEnumInitWithPayment = 0,
-  APRecurringActionEnumInitWithRefund = 1,
-  APRecurringActionEnumAuto = 2,
-  APRecurringActionEnumDeactivate = 3,
-  APRecurringActionEnumUnknown = 4,
-};
-
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR21APRegulationLabelObjC")
-@interface APRegulationLabelObjC : NSObject
-@property (nonatomic, readonly) NSInteger labelId;
-@property (nonatomic, readonly, copy) NSString * _Nonnull inputLabel;
-@property (nonatomic, readonly) BOOL showCheckbox;
-@property (nonatomic, readonly) BOOL checkboxRequired;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-typedef SWIFT_ENUM(NSInteger, APRegulationLabelPlacementObjC, open) {
-  APRegulationLabelPlacementObjCTopOfPage = 0,
-  APRegulationLabelPlacementObjCNearPaywall = 1,
-  APRegulationLabelPlacementObjCAboveButton = 2,
-  APRegulationLabelPlacementObjCBottomOfPage = 3,
-};
-
-SWIFT_ENUM_FWD_DECL(NSInteger, APRegulationTypeObjC)
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR16APRegulationObjC")
-@interface APRegulationObjC : NSObject
-@property (nonatomic, readonly) NSInteger regulationId;
-@property (nonatomic, readonly) enum APRegulationTypeObjC type;
-@property (nonatomic, readonly, copy) NSString * _Nullable url;
-@property (nonatomic, readonly, copy) NSArray<APRegulationLabelObjC *> * _Nonnull labels;
-- (nonnull instancetype)initWithRegulationId:(NSInteger)regulationId type:(enum APRegulationTypeObjC)type url:(NSString * _Nullable)url labels:(NSArray<APRegulationLabelObjC *> * _Nonnull)labels OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-typedef SWIFT_ENUM(NSInteger, APRegulationServiceModelObjC, open) {
-  APRegulationServiceModelObjCPayer = 0,
-  APRegulationServiceModelObjCMerchant = 1,
-};
-
-typedef SWIFT_ENUM(NSInteger, APRegulationTypeObjC, open) {
-  APRegulationTypeObjCDefault = 0,
-  APRegulationTypeObjCRecurring = 1,
-  APRegulationTypeObjCDcb = 2,
-  APRegulationTypeObjCPsd2 = 3,
-  APRegulationTypeObjCRodo = 4,
-  APRegulationTypeObjCPrivacy = 5,
-};
-
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR17APRegulationsObjC")
-@interface APRegulationsObjC : NSObject
-@property (nonatomic, readonly) enum APRegulationServiceModelObjC serviceModel;
-@property (nonatomic, readonly, copy) NSArray<APRegulationObjC *> * _Nonnull regulations;
-- (nonnull instancetype)initWithServiceModel:(enum APRegulationServiceModelObjC)serviceModel regulations:(NSArray<APRegulationObjC *> * _Nonnull)regulations OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR8APResult")
@@ -1659,9 +1038,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR8APResult")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class APTypography;
-@class APSwitchStyle;
-@class APTextInputStyle;
 /// A central, observable style container that defines global typography,
 /// colors, and component styles for the SDK.
 /// Use <code>APStyleManager</code> to provide a single source of truth for theming across views.
@@ -1752,7 +1128,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR8APResult")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR14APStyleManager")
 @interface APStyleManager : NSObject
-- (nonnull instancetype)initWithTypography:(APTypography * _Nonnull)typography primaryButtonStyle:(APButtonStyle * _Nonnull)primaryButtonStyle secondaryButtonStyle:(APButtonStyle * _Nonnull)secondaryButtonStyle tertiaryButtonStyle:(APButtonStyle * _Nonnull)tertiaryButtonStyle bankGridStyle:(APBankGridStyle * _Nonnull)bankGridStyle checkboxStyle:(APCheckboxStyle * _Nonnull)checkboxStyle dccPaymentFormStyle:(APDCCPaymentFormStyle * _Nonnull)dccPaymentFormStyle dialogStyle:(APDialogStyle * _Nonnull)dialogStyle loaderStyle:(APLoaderStyle * _Nonnull)loaderStyle paymentMethodButtonStyle:(APButtonStyle * _Nonnull)paymentMethodButtonStyle paymentMethodTitleStyle:(APPaymentMethodTitleStyle * _Nonnull)paymentMethodTitleStyle paymentSummaryStyle:(APPaymentSummaryStyle * _Nonnull)paymentSummaryStyle radioButtonStyle:(APRadioButtonStyle * _Nonnull)radioButtonStyle switchStyle:(APSwitchStyle * _Nonnull)switchStyle textInputStyle:(APTextInputStyle * _Nonnull)textInputStyle errorColor:(APColor * _Nullable)errorColor footerIconsColor:(APColor * _Nullable)footerIconsColor OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1818,24 +1193,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR14APStyleManager")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APSwitchStyle")
 @interface APSwitchStyle : NSObject
-/// Color of the switch thumb when the control is on (checked).
-/// Default: light #FFFFFF, dark #FAFAFA.
-@property (nonatomic, strong) APColor * _Nonnull checkedThumbColor;
-/// Color of the switch thumb when the control is off (unchecked).
-/// Default: light #808080, dark #CCCCCC.
-@property (nonatomic, strong) APColor * _Nonnull uncheckedThumbColor;
-/// Color of the switch track when the control is on (checked).
-/// Default: light #2E72BF, dark #158EE6.
-@property (nonatomic, strong) APColor * _Nonnull checkedTrackColor;
-/// Color of the switch track when the control is off (unchecked).
-/// Default: light #FFFFFF, dark #0F0F0F.
-@property (nonatomic, strong) APColor * _Nonnull uncheckedTrackColor;
-/// Border color surrounding the switch when the control is on (checked).
-/// Default: fully transparent.
-@property (nonatomic, strong) APColor * _Nonnull checkedBorderColor;
-/// Border color surrounding the switch when the control is off (unchecked).
-/// Default: light #808080, dark #CCCCCC.
-@property (nonatomic, strong) APColor * _Nonnull uncheckedBorderColor;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1965,46 +1322,9 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APSwitchStyle")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR16APTextInputStyle")
 @interface APTextInputStyle : NSObject
-/// Typography and color used for the user-entered text.
-/// Default font: System 16pt, Regular.
-/// Default color: light #282828, dark #FAFAFA.
-@property (nonatomic, strong) APTextStyle * _Nonnull inputTextStyle;
-/// Typography and color used for the input label or placeholder.
-/// Default font: System 14pt, Regular.
-/// Default color: light #282828, dark #FAFAFA.
-@property (nonatomic, strong) APTextStyle * _Nonnull labelTextStyle;
-/// Typography and color used for inline error messages.
-/// Default font: System 14pt, Regular.
-/// Default color: light #BF4826, dark #E97655.
-@property (nonatomic, strong) APTextStyle * _Nonnull errorTextStyle;
-/// Border color when the input is not focused.
-/// Default: light #808080 at 40% opacity, dark #CCCCCC at 40% opacity.
-@property (nonatomic, strong) APColor * _Nonnull borderInactiveColor;
-/// Border color when the input is focused/active.
-/// Default: light #2E72BF, dark #158EE6.
-@property (nonatomic, strong) APColor * _Nonnull borderActiveColor;
-/// Border color when the input is in an error state.
-/// Default: light #BF4826, dark #E97655.
-@property (nonatomic, strong) APColor * _Nonnull borderErrorColor;
-/// Background color of the input field.
-/// Default: light #FFFFFF, dark #0F0F0F.
-@property (nonatomic, strong) APColor * _Nonnull backgroundColor;
-/// Color applied to trailing icons within the input.
-/// Default: light #282828, dark #FAFAFA.
-@property (nonatomic, strong) APColor * _Nonnull trailingIconsColor;
-/// Vertical spacing, in points, between stacked inputs.
-/// Default: 12.
-@property (nonatomic) CGFloat spaceBetweenInputs;
-/// Border stroke width, in points.
-/// Default: 1.
-@property (nonatomic) CGFloat strokeWidth;
-/// Corner radius of the input container, in points.
-/// Default: Infinity (pill/capsule).
-@property (nonatomic) CGFloat radius;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIFont;
 /// A lightweight style container that defines the typographic appearance
 /// for text elements within the SDK.
 /// Use <code>APTextStyle</code> to configure the font and color used by text-based UI
@@ -2064,67 +1384,23 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR16APTextInputStyle")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR11APTextStyle")
 @interface APTextStyle : NSObject
-/// The font applied to the text. Required; no default value is provided.
-@property (nonatomic, strong) UIFont * _Nonnull font;
-/// The appearance-aware color applied to the text.
-/// Default when using the convenience initializer: Light <code>#282828</code>, Dark <code>#FAFAFA</code>.
-@property (nonatomic, strong) APColor * _Nonnull color;
-/// Creates a text style with an explicit font and color.
-/// \param font The font to apply to the text.
-///
-/// \param color The appearance-aware color to apply to the text.
-///
-- (nonnull instancetype)initWithFont:(UIFont * _Nonnull)font color:(APColor * _Nonnull)color OBJC_DESIGNATED_INITIALIZER;
-/// Creates a text style with an explicit font and a default color.
-/// note:
-/// The <code>color</code> defaults to Light <code>#282828</code> and Dark <code>#FAFAFA</code>.
-/// \param font The font to apply to the text.
-///
-- (nonnull instancetype)initWithFont:(UIFont * _Nonnull)font;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APTransaction")
 @interface APTransaction : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nullable orderId;
-@property (nonatomic, readonly, copy) NSString * _Nullable remoteId;
-@property (nonatomic, readonly, copy) NSString * _Nullable transactionHash;
-@property (nonatomic, readonly, copy) NSString * _Nullable serviceId;
-@property (nonatomic, readonly, copy) NSString * _Nullable messageId;
-@property (nonatomic, readonly, copy) NSString * _Nullable reason;
-@property (nonatomic, readonly) enum APPaymentStatus paymentStatus;
-@property (nonatomic, readonly) enum APPaymentStatus status;
-@property (nonatomic, readonly, copy) NSString * _Nullable redirectUrl;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class PKPaymentToken;
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR17APTransactionData")
 @interface APTransactionData : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithAmount:(double)amount OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithAmount:(double)amount orderId:(NSString * _Nonnull)orderId;
-- (NSString * _Nonnull)getOrderId SWIFT_WARN_UNUSED_RESULT;
-- (NSDictionary<NSString *, id> * _Nonnull)getParams SWIFT_WARN_UNUSED_RESULT;
-- (void)setCustomerEmail:(NSString * _Nonnull)customerEmail;
-- (void)setCustomerPhone:(NSString * _Nonnull)customerPhone;
-- (void)setGatewayId:(NSInteger)gatewayId;
-- (void)setRecurringAction:(enum APRecurringActionEnum)recurringAction;
-- (void)setRecurringAcceptanceState:(enum APRecurringAcceptanceStateEnum)recurringAcceptanceState;
-- (void)addParams:(NSDictionary<NSString *, NSString *> * _Nonnull)customParams;
-- (void)addParamWithValue:(NSString * _Nonnull)value key:(NSString * _Nonnull)key;
-- (void)setProductList:(APProductList * _Nonnull)products;
-- (void)setApplePayPaymentToken:(PKPaymentToken * _Nonnull)paymentToken;
-- (void)setBlikCode:(NSString * _Nonnull)blikCode;
-- (void)setRegulationsWithRegulationsObjc:(APRegulationsObjC * _Nonnull)regulationsObjc;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR19APTransactionStatus")
 @interface APTransactionStatus : NSObject
-@property (nonatomic, readonly) enum APPaymentStatus paymentStatus;
-- (nonnull instancetype)initWithPaymentStatus:(enum APPaymentStatus)paymentStatus OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -2187,32 +1463,12 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR19APTransactionStatus")
 /// </ul>
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR12APTypography")
 @interface APTypography : NSObject
-/// Font used for small labels.
-/// Default: System, 12pt, Regular.
-@property (nonatomic, strong) UIFont * _Nonnull labelSmallFont;
-/// Font used for medium labels.
-/// Default: System, 14pt, Regular.
-@property (nonatomic, strong) UIFont * _Nonnull labelMediumFont;
-/// Font used for large labels.
-/// Default: System, 16pt, Regular.
-@property (nonatomic, strong) UIFont * _Nonnull labelLargeFont;
-/// Font used for extra-large labels.
-/// Default: System, 18pt, Regular.
-@property (nonatomic, strong) UIFont * _Nonnull labelXLargeFont;
-/// Font used for small paragraph text.
-/// Default: System, 12pt, Medium.
-@property (nonatomic, strong) UIFont * _Nonnull labelSmallBoldFont;
-/// Default text color (appearance-aware).
-/// Default: light #282828, dark #FAFAFA.
-@property (nonatomic, strong) APColor * _Nonnull defaultTextColor;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APVisaGatewayContainerView")
 @interface APVisaGatewayContainerView : UIView
-- (nonnull instancetype)initWithData:(APGatewayBaseViewModelData * _Nonnull)data styleManager:(APStyleManager * _Nonnull)styleManager sizeChanged:(void (^ _Nonnull)(CGSize))sizeChanged OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -2222,27 +1478,9 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7Autopay")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSError;
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR11AutopayObjC")
-@interface AutopayObjC : NSObject
-- (nonnull instancetype)initWithConfig:(APConfig * _Nonnull)config OBJC_DESIGNATED_INITIALIZER;
-+ (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
-- (void)getGatewayListWithCompletion:(void (^ _Nonnull)(NSArray<APGateway *> * _Nullable, NSError * _Nullable))completion;
-- (void)getCustomerFeeWithGatewayId:(NSInteger)gatewayId amount:(double)amount completion:(void (^ _Nonnull)(APCustomerFee * _Nullable, NSError * _Nullable))completion;
-- (void)getRegulationsWithGatewayId:(NSInteger)gatewayId completion:(void (^ _Nonnull)(APRegulationsObjC * _Nullable, NSError * _Nullable))completion;
-- (void)startTransactionWithTransactionData:(APTransactionData * _Nonnull)transactionData completion:(void (^ _Nonnull)(APTransaction * _Nullable, NSError * _Nullable))completion;
-- (void)getTransactionStatusWithOrderId:(NSString * _Nonnull)orderId completion:(void (^ _Nonnull)(APTransactionStatus * _Nullable, NSError * _Nullable))completion;
-- (APConfig * _Nonnull)getConfig SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class NSURL;
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR20WebViewContainerView")
 @interface WebViewContainerView : UIView
-- (nonnull instancetype)initWithUrl:(NSURL * _Nonnull)url transactionCallback:(void (^ _Nonnull)(APResult * _Nullable, APError * _Nullable))transactionCallback OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)attachTo:(UIViewController * _Nonnull)parent;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
