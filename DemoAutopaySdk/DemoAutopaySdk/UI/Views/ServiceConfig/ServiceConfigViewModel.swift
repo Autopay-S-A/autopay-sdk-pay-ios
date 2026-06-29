@@ -41,6 +41,8 @@ class ServiceConfigViewModel: ObservableObject {
             return Double(value.replacingOccurrences(of: ",", with: ".")) != nil
         case .contextPath:
             return value.first == "/"
+        case .useWebBlik:
+            return true
         default:
             return !value.isEmpty
         }

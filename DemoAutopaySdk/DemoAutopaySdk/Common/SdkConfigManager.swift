@@ -19,7 +19,8 @@ final class SdkConfigManager: ObservableObject {
             applePayMerchantId: param(for: .applePayMerchantId),
             environment: EnvironmentConfigType(rawValue: param(for: .environment)) == .development ? .dev : .prod,
             contextPath: param(for: .contextPath),
-            currencies: [param(for: .currency).uppercased()]
+            currencies: [param(for: .currency).uppercased()],
+            useWebBlik: Bool(param(for: .useWebBlik)) ?? false
         )
     }
 
@@ -62,6 +63,7 @@ final class SdkConfigManager: ObservableObject {
         .currency: "PLN",
         .paymentSummary: "Testowa płatność",
         .email: "devnull@bm.pl",
+        .useWebBlik: "false"
     ]
 
     private func loadParams() -> [String: String] {
