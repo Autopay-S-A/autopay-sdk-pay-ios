@@ -31597,28 +31597,28 @@
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
-      "offset": 1067,
+      "offset": 1281,
       "length": 13,
       "value": "\"TOP_OF_PAGE\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1318,
       "length": 14,
       "value": "\"NEAR_PAYWALL\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
-      "offset": 1142,
+      "offset": 1356,
       "length": 14,
       "value": "\"ABOVE_BUTTON\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
+      "offset": 1395,
       "length": 16,
       "value": "\"BOTTOM_OF_PAGE\""
     },
@@ -31794,22 +31794,22 @@
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
       "offset": 1228,
-      "length": 24,
-      "value": "\"RegulationAcceptanceID\""
+      "length": 14,
+      "value": "\"AcceptanceID\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
-      "offset": 1299,
-      "length": 27,
-      "value": "\"RegulationAcceptanceState\""
+      "offset": 1289,
+      "length": 17,
+      "value": "\"AcceptanceState\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/APRequestDataParamKey.swift",
       "kind": "StringLiteral",
-      "offset": 1372,
-      "length": 26,
-      "value": "\"RegulationAcceptanceTime\""
+      "offset": 1352,
+      "length": 16,
+      "value": "\"AcceptanceTime\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Networking\/Request\/RequestData\/CheckDccRequestData.swift",
