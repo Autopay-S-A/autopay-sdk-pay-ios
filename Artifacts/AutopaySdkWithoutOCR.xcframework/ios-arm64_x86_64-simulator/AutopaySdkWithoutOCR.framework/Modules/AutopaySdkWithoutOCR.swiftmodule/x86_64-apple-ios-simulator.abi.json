@@ -31597,28 +31597,28 @@
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
-      "offset": 1281,
+      "offset": 1280,
       "length": 13,
       "value": "\"TOP_OF_PAGE\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
+      "offset": 1317,
       "length": 14,
       "value": "\"NEAR_PAYWALL\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
-      "offset": 1356,
+      "offset": 1355,
       "length": 14,
       "value": "\"ABOVE_BUTTON\""
     },
     {
       "filePath": "\/Users\/krystiankulawiak\/ios-sdk\/AutopaySdk\/AutopaySdk\/Models\/APRegulations.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1394,
       "length": 16,
       "value": "\"BOTTOM_OF_PAGE\""
     },
