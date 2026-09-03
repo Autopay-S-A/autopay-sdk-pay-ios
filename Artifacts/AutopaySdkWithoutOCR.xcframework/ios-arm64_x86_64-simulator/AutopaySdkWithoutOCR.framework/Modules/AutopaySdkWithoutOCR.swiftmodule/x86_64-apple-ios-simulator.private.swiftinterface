@@ -79,16 +79,6 @@ public enum APErrorEnum : Swift.Int {
   public init(paymentStatus: AutopaySdkWithoutOCR.APPaymentStatus)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class APBankGridStyle : ObjectiveC.NSObject {
-  public var columns: Swift.Int
-  public var cellHeight: CoreFoundation.CGFloat
-  public var radius: CoreFoundation.CGFloat
-  public var backgroundColor: AutopaySdkWithoutOCR.APColor
-  public var checkedBorderColor: AutopaySdkWithoutOCR.APColor
-  public var uncheckedBorderColor: AutopaySdkWithoutOCR.APColor
-  @objc override dynamic public init()
-  @objc deinit
-}
 @objc public class APButtonStyle : ObjectiveC.NSObject {
   public var containerColor: AutopaySdkWithoutOCR.APColor
   public var containerInactiveColor: AutopaySdkWithoutOCR.APColor
@@ -96,11 +86,10 @@ public enum APErrorEnum : Swift.Int {
   public var borderInactiveColor: AutopaySdkWithoutOCR.APColor
   public var textStyle: AutopaySdkWithoutOCR.APTextStyle
   public var textInactiveStyle: AutopaySdkWithoutOCR.APTextStyle
-  public var iconColor: AutopaySdkWithoutOCR.APColor?
   public var cornerRadius: CoreFoundation.CGFloat
   public var borderWidth: CoreFoundation.CGFloat
   public var minHeight: CoreFoundation.CGFloat
-  public init(containerColor: AutopaySdkWithoutOCR.APColor, containerInactiveColor: AutopaySdkWithoutOCR.APColor, borderColor: AutopaySdkWithoutOCR.APColor, borderInactiveColor: AutopaySdkWithoutOCR.APColor, textStyle: AutopaySdkWithoutOCR.APTextStyle, textInactiveStyle: AutopaySdkWithoutOCR.APTextStyle, iconColor: AutopaySdkWithoutOCR.APColor? = nil, cornerRadius: CoreFoundation.CGFloat, borderWidth: CoreFoundation.CGFloat, minHeight: CoreFoundation.CGFloat)
+  public init(containerColor: AutopaySdkWithoutOCR.APColor, containerInactiveColor: AutopaySdkWithoutOCR.APColor, borderColor: AutopaySdkWithoutOCR.APColor, borderInactiveColor: AutopaySdkWithoutOCR.APColor, textStyle: AutopaySdkWithoutOCR.APTextStyle, textInactiveStyle: AutopaySdkWithoutOCR.APTextStyle, cornerRadius: CoreFoundation.CGFloat, borderWidth: CoreFoundation.CGFloat, minHeight: CoreFoundation.CGFloat)
   public init(style: AutopaySdkWithoutOCR.APButtonStyleType)
   @objc deinit
 }
@@ -108,7 +97,6 @@ public enum APButtonStyleType : Swift.Int {
   case primary
   case secondary
   case tertiary
-  case paymentMethod
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -144,9 +132,52 @@ public enum APButtonStyleType : Swift.Int {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class APGenericGroupGridStyle : ObjectiveC.NSObject {
+  public var columns: Swift.Int
+  public var cellHeight: CoreFoundation.CGFloat
+  public var radius: CoreFoundation.CGFloat
+  public var backgroundColor: AutopaySdkWithoutOCR.APColor
+  public var checkedBorderColor: AutopaySdkWithoutOCR.APColor
+  public var uncheckedBorderColor: AutopaySdkWithoutOCR.APColor
+  public var inactiveBorderColor: AutopaySdkWithoutOCR.APColor
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class APLoaderStyle : ObjectiveC.NSObject {
   public var size: CoreFoundation.CGFloat
   public var color: AutopaySdkWithoutOCR.APColor
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class APPaymentListTileStyle : ObjectiveC.NSObject {
+  public var containerColor: AutopaySdkWithoutOCR.APColor
+  public var containerInactiveColor: AutopaySdkWithoutOCR.APColor
+  public var borderColor: AutopaySdkWithoutOCR.APColor
+  public var borderInactiveColor: AutopaySdkWithoutOCR.APColor
+  public var borderWidth: CoreFoundation.CGFloat
+  public var borderInactiveWidth: CoreFoundation.CGFloat
+  public var leadingIconColor: AutopaySdkWithoutOCR.APColor
+  public var trailingIconColor: AutopaySdkWithoutOCR.APColor
+  public var titleStyle: AutopaySdkWithoutOCR.APTextStyle
+  public var titleInactiveStyle: AutopaySdkWithoutOCR.APTextStyle
+  public var subtitleStyle: AutopaySdkWithoutOCR.APTextStyle
+  public var expandedCornerRadius: CoreFoundation.CGFloat
+  public var collapsedCornerRadius: CoreFoundation.CGFloat
+  public var minCollapsedHeight: CoreFoundation.CGFloat
+  public var dividerColor: AutopaySdkWithoutOCR.APColor
+  public var dividerHeight: CoreFoundation.CGFloat
+  public var itemGridStyle: AutopaySdkWithoutOCR.APGroupGridStyle
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class APGroupGridStyle : ObjectiveC.NSObject {
+  public var columns: Swift.Int
+  public var cellHeight: CoreFoundation.CGFloat
+  public var cornerRadius: CoreFoundation.CGFloat
+  public var backgroundColor: AutopaySdkWithoutOCR.APColor
+  public var borderColor: AutopaySdkWithoutOCR.APColor
+  public var borderInactiveColor: AutopaySdkWithoutOCR.APColor
+  public var borderWidth: CoreFoundation.CGFloat
   @objc override dynamic public init()
   @objc deinit
 }
@@ -217,11 +248,11 @@ public enum APButtonStyleType : Swift.Int {
   @objc deinit
 }
 @objc final public class APConfig : ObjectiveC.NSObject {
-  public init(token: Swift.String, serviceId: Swift.Int, acceptorId: Swift.Int, applePayMerchantId: Swift.String? = nil, environment: AutopaySdkWithoutOCR.APEnvironmentEnum, contextPath: Swift.String? = nil, currencies: [Swift.String]? = nil, countryCode: Swift.String? = nil, defaultRegulationsCode: Swift.String? = nil, regulationsHidden: [AutopaySdkWithoutOCR.APGatewayPaymentGroup]? = nil, useWebBlik: Swift.Bool = false)
+  public init(token: Swift.String, serviceId: Swift.Int, acceptorId: Swift.Int, applePayMerchantId: Swift.String? = nil, environment: AutopaySdkWithoutOCR.APEnvironmentEnum, contextPath: Swift.String? = nil, currencies: [Swift.String]? = nil, countryCode: Swift.String? = nil, defaultRegulationsCode: Swift.String? = nil, regulationsHidden: AutopaySdkWithoutOCR.APExcluding? = nil, useWebBlik: Swift.Bool = false)
   final public func setToken(token: Swift.String)
   final public func setCurrencies(currencies: [Swift.String])
   final public func setCountryCode(countryCode: Swift.String)
-  final public func setRegulationsHidden(hidden: [AutopaySdkWithoutOCR.APGatewayPaymentGroup])
+  final public func setRegulationsHidden(hidden: AutopaySdkWithoutOCR.APExcluding?)
   @objc deinit
 }
 public enum APConfirmation : Swift.Int {
@@ -233,12 +264,11 @@ public enum APConfirmation : Swift.Int {
     get
   }
 }
-@objc @_hasMissingDesignatedInitializers final public class APCurrency : ObjectiveC.NSObject {
-  final public var currency: Swift.String {
-    get
-  }
-  @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
-  @objc deinit
+public struct APCurrency : Swift.Sendable, Swift.Equatable {
+  public let currency: Swift.String
+  public let minAmount: Swift.Double?
+  public let maxAmount: Swift.Double?
+  public static func == (a: AutopaySdkWithoutOCR.APCurrency, b: AutopaySdkWithoutOCR.APCurrency) -> Swift.Bool
 }
 @objc final public class APCustomerFee : ObjectiveC.NSObject {
   final public var customerFee: Swift.Double {
@@ -263,77 +293,117 @@ public enum APEnvironmentEnum : Swift.Int, Swift.RawRepresentable, Swift.CaseIte
     get
   }
 }
-@objc @_hasMissingDesignatedInitializers final public class APGateway : ObjectiveC.NSObject, Swift.Identifiable {
-  final public var gatewayId: Swift.Int {
-    get
-  }
-  final public var gatewayName: Swift.String? {
-    get
-  }
-  final public var gatewayType: AutopaySdkWithoutOCR.APGatewayType {
-    get
-  }
-  final public var bankName: Swift.String? {
-    get
-  }
-  final public var iconUrl: Swift.String? {
-    get
-  }
-  final public var stateDate: Swift.String? {
-    get
-  }
-  final public var currencyList: [AutopaySdkWithoutOCR.APCurrency] {
-    get
-  }
-  final public let id: Foundation.UUID
-  @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+public struct APExcluding : Swift.Sendable {
+  public let groups: [AutopaySdkWithoutOCR.APGatewayGroupType]
+  public let gateways: [AutopaySdkWithoutOCR.APGatewayType]
+  public init(groups: [AutopaySdkWithoutOCR.APGatewayGroupType] = [], gateways: [AutopaySdkWithoutOCR.APGatewayType] = [])
+}
+public struct APGateway : Swift.Sendable, Swift.Identifiable, Swift.Equatable {
+  public let id: Foundation.UUID
+  public let gatewayId: Swift.Int
+  public let name: Swift.String?
+  public let gatewayType: AutopaySdkWithoutOCR.APGatewayType
+  public let groupType: AutopaySdkWithoutOCR.APGatewayGroupType?
+  public let bankName: Swift.String?
+  public let iconUrl: Swift.String?
+  public let state: AutopaySdkWithoutOCR.APGatewayState
+  public let stateDate: Swift.String?
+  public let description: Swift.String?
+  public let shortDescription: Swift.String?
+  public let descriptionUrl: Swift.String?
+  public let inBalanceAllowed: Swift.Bool?
+  public let minValidityTime: Swift.Int?
+  public let order: Swift.Int
+  public let currencies: [AutopaySdkWithoutOCR.APCurrency]
+  public let buttonTitle: Swift.String?
+  public static func == (a: AutopaySdkWithoutOCR.APGateway, b: AutopaySdkWithoutOCR.APGateway) -> Swift.Bool
   public typealias ID = Foundation.UUID
-  @objc deinit
 }
-public enum APGatewayPaymentGroup : Swift.Int, Swift.CaseIterable {
-  case blik
+public struct APGatewayGroup : Swift.Sendable, Swift.Identifiable, Swift.Equatable {
+  public let id: Foundation.UUID
+  public let type: AutopaySdkWithoutOCR.APGatewayGroupType
+  public let title: Swift.String
+  public let shortDescription: Swift.String?
+  public let description: Swift.String?
+  public let order: Swift.Int
+  public let iconUrl: Swift.String?
+  public static func == (a: AutopaySdkWithoutOCR.APGatewayGroup, b: AutopaySdkWithoutOCR.APGatewayGroup) -> Swift.Bool
+  public typealias ID = Foundation.UUID
+}
+public enum APGatewayGroupType : Swift.Sendable, Swift.Hashable, Swift.CaseIterable {
   case card
-  case bankTransfer
-  case visa
-  case applePay
-  public init?(rawValue: Swift.Int)
-  public typealias AllCases = [AutopaySdkWithoutOCR.APGatewayPaymentGroup]
-  public typealias RawValue = Swift.Int
-  nonisolated public static var allCases: [AutopaySdkWithoutOCR.APGatewayPaymentGroup] {
+  case visa_mobile
+  case bnpl_blik
+  case auto
+  case installments
+  case auto_blik
+  case pbl
+  case fr
+  case bnpl
+  case wallet
+  case blik
+  case google_pay
+  case apple_pay
+  case undefined(type: Swift.String)
+  public static var allCases: [AutopaySdkWithoutOCR.APGatewayGroupType]
+  public var rawValue: Swift.String {
     get
   }
-  public var rawValue: Swift.Int {
+  public init(rawValue: Swift.String)
+  public static func == (a: AutopaySdkWithoutOCR.APGatewayGroupType, b: AutopaySdkWithoutOCR.APGatewayGroupType) -> Swift.Bool
+  public typealias AllCases = [AutopaySdkWithoutOCR.APGatewayGroupType]
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
-public enum APGatewayType : Swift.Int, Swift.RawRepresentable, Swift.CaseIterable, Swift.Codable {
+public struct APGatewayItem : Swift.Sendable, Swift.Equatable {
+  public let group: AutopaySdkWithoutOCR.APGatewayGroup
+  public let gateway: AutopaySdkWithoutOCR.APGateway
+  public static func == (a: AutopaySdkWithoutOCR.APGatewayItem, b: AutopaySdkWithoutOCR.APGatewayItem) -> Swift.Bool
+}
+public struct APGatewayList : Swift.Sendable, Swift.Equatable {
+  public let groups: [AutopaySdkWithoutOCR.APGatewayGroup]
+  public let gateways: [AutopaySdkWithoutOCR.APGateway]
+  public static func == (a: AutopaySdkWithoutOCR.APGatewayList, b: AutopaySdkWithoutOCR.APGatewayList) -> Swift.Bool
+}
+public enum APGatewayState : Swift.String, Swift.Sendable {
+  case enabled
+  case temporaryDisabled
+  case disabled
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum APGatewayType : Swift.Sendable, Swift.Hashable, Swift.CaseIterable {
   case blik
-  case autoPaymentBlik
-  case pbl
-  case fastTransaction
   case card
   case autoPaymentCard
-  case installments
-  case pis
-  case ais
-  case otp
   case masterPass
-  case googlePay
+  case raty
   case visaCheckout
+  case googlePay
   case applePay
-  case bankTransfer
-  case autoPaymentDcb
+  case otp
   case visaMobile
-  case undefined
-  public typealias RawValue = Swift.String
-  public var rawValue: AutopaySdkWithoutOCR.APGatewayType.RawValue {
+  case undefined(id: Swift.Int)
+  public static var allCases: [AutopaySdkWithoutOCR.APGatewayType]
+  public var gatewayId: Swift.Int {
     get
   }
-  public init(rawValue: AutopaySdkWithoutOCR.APGatewayType.RawValue)
+  public init(rawValue: Swift.Int)
+  public static func == (a: AutopaySdkWithoutOCR.APGatewayType, b: AutopaySdkWithoutOCR.APGatewayType) -> Swift.Bool
   public typealias AllCases = [AutopaySdkWithoutOCR.APGatewayType]
-  nonisolated public static var allCases: [AutopaySdkWithoutOCR.APGatewayType] {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
+}
+public struct APGroupedGatewayItem : Swift.Sendable {
+  public let group: AutopaySdkWithoutOCR.APGatewayGroup
+  public let gateways: [AutopaySdkWithoutOCR.APGateway]
 }
 @objc final public class APParam : ObjectiveC.NSObject {
   public init(name: Swift.String, value: Swift.String)
@@ -498,6 +568,9 @@ public enum APRequestDataParamKey {
   public static let acceptanceIdSuffix: Swift.String
   public static let acceptanceStateSuffix: Swift.String
   public static let acceptanceTimeSuffix: Swift.String
+  public static let regulationAcceptanceIdSuffix: Swift.String
+  public static let regulationAcceptanceStateSuffix: Swift.String
+  public static let regulationAcceptanceTimeSuffix: Swift.String
 }
 @_Concurrency.MainActor @preconcurrency public struct GatewayImage : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -554,14 +627,14 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published<AutopaySdkWithoutOCR.APBankGridStyle> @_projectedValueProperty($bankGridStyle) final public var bankGridStyle: AutopaySdkWithoutOCR.APBankGridStyle {
+  @Combine.Published<AutopaySdkWithoutOCR.APGenericGroupGridStyle> @_projectedValueProperty($genericGroupGridStyle) final public var genericGroupGridStyle: AutopaySdkWithoutOCR.APGenericGroupGridStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
-  final public var $bankGridStyle: Combine.Published<AutopaySdkWithoutOCR.APBankGridStyle>.Publisher {
+  final public var $genericGroupGridStyle: Combine.Published<AutopaySdkWithoutOCR.APGenericGroupGridStyle>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
@@ -614,14 +687,14 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published<AutopaySdkWithoutOCR.APButtonStyle> @_projectedValueProperty($paymentMethodButtonStyle) final public var paymentMethodButtonStyle: AutopaySdkWithoutOCR.APButtonStyle {
+  @Combine.Published<AutopaySdkWithoutOCR.APPaymentListTileStyle> @_projectedValueProperty($paymentListTileStyle) final public var paymentListTileStyle: AutopaySdkWithoutOCR.APPaymentListTileStyle {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
-  final public var $paymentMethodButtonStyle: Combine.Published<AutopaySdkWithoutOCR.APButtonStyle>.Publisher {
+  final public var $paymentListTileStyle: Combine.Published<AutopaySdkWithoutOCR.APPaymentListTileStyle>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
@@ -710,7 +783,7 @@ public enum APRequestDataParamKey {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  public init(typography: AutopaySdkWithoutOCR.APTypography = .init(), primaryButtonStyle: AutopaySdkWithoutOCR.APButtonStyle = .init(style: .primary), secondaryButtonStyle: AutopaySdkWithoutOCR.APButtonStyle = .init(style: .secondary), tertiaryButtonStyle: AutopaySdkWithoutOCR.APButtonStyle = .init(style: .tertiary), bankGridStyle: AutopaySdkWithoutOCR.APBankGridStyle = .init(), checkboxStyle: AutopaySdkWithoutOCR.APCheckboxStyle = .init(), dccPaymentFormStyle: AutopaySdkWithoutOCR.APDCCPaymentFormStyle = .init(), dialogStyle: AutopaySdkWithoutOCR.APDialogStyle = .init(), loaderStyle: AutopaySdkWithoutOCR.APLoaderStyle = .init(), paymentMethodButtonStyle: AutopaySdkWithoutOCR.APButtonStyle = .init(style: .paymentMethod), paymentMethodTitleStyle: AutopaySdkWithoutOCR.APPaymentMethodTitleStyle = .init(), paymentSummaryStyle: AutopaySdkWithoutOCR.APPaymentSummaryStyle = .init(), radioButtonStyle: AutopaySdkWithoutOCR.APRadioButtonStyle = .init(), switchStyle: AutopaySdkWithoutOCR.APSwitchStyle = .init(), textInputStyle: AutopaySdkWithoutOCR.APTextInputStyle = .init(), errorColor: AutopaySdkWithoutOCR.APColor? = nil, footerIconsColor: AutopaySdkWithoutOCR.APColor? = nil)
+  public init(typography: AutopaySdkWithoutOCR.APTypography = .init(), primaryButtonStyle: AutopaySdkWithoutOCR.APButtonStyle = .init(style: .primary), secondaryButtonStyle: AutopaySdkWithoutOCR.APButtonStyle = .init(style: .secondary), tertiaryButtonStyle: AutopaySdkWithoutOCR.APButtonStyle = .init(style: .tertiary), genericGroupGridStyle: AutopaySdkWithoutOCR.APGenericGroupGridStyle = .init(), checkboxStyle: AutopaySdkWithoutOCR.APCheckboxStyle = .init(), dccPaymentFormStyle: AutopaySdkWithoutOCR.APDCCPaymentFormStyle = .init(), dialogStyle: AutopaySdkWithoutOCR.APDialogStyle = .init(), loaderStyle: AutopaySdkWithoutOCR.APLoaderStyle = .init(), paymentListTileStyle: AutopaySdkWithoutOCR.APPaymentListTileStyle = .init(), paymentMethodTitleStyle: AutopaySdkWithoutOCR.APPaymentMethodTitleStyle = .init(), paymentSummaryStyle: AutopaySdkWithoutOCR.APPaymentSummaryStyle = .init(), radioButtonStyle: AutopaySdkWithoutOCR.APRadioButtonStyle = .init(), switchStyle: AutopaySdkWithoutOCR.APSwitchStyle = .init(), textInputStyle: AutopaySdkWithoutOCR.APTextInputStyle = .init(), errorColor: AutopaySdkWithoutOCR.APColor? = nil, footerIconsColor: AutopaySdkWithoutOCR.APColor? = nil)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -720,29 +793,39 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func customScaledFont(_ font: UIKit.UIFont) -> some SwiftUICore.View
   
 }
-@objc @_hasMissingDesignatedInitializers public class APGatewayBaseViewModelData : ObjectiveC.NSObject {
-  public init(config: AutopaySdkWithoutOCR.APConfig, amount: Swift.Double, orderId: Swift.String? = nil, summary: Swift.String? = nil, customerEmail: Swift.String? = nil, customerPhone: Swift.String? = nil, blikContentHeaderTitle: Swift.String? = nil, bankContentHeaderTitle: Swift.String? = nil, paymentViewCallback: AutopaySdkWithoutOCR.APPPaymentViewCallback? = nil, payTappedCallback: AutopaySdkWithoutOCR.APPayTappedCallback? = nil, customerFeeDidUpdatedCallback: AutopaySdkWithoutOCR.APCustomerFeeDidUpdatedCallback? = nil, tokenExpiredCallback: AutopaySdkWithoutOCR.APTokenExpiredCallback? = nil)
-  @objc deinit
+public struct APGatewayBaseViewModelData {
+  public init(config: AutopaySdkWithoutOCR.APConfig, amount: Swift.Double, orderId: Swift.String? = nil, summary: Swift.String? = nil, customerEmail: Swift.String? = nil, customerPhone: Swift.String? = nil, customParams: [Swift.String : Swift.String]? = nil, blikContentHeaderTitle: Swift.String? = nil, paymentViewCallback: AutopaySdkWithoutOCR.APPPaymentViewCallback? = nil, payTappedCallback: AutopaySdkWithoutOCR.APPayTappedCallback? = nil, customerFeeDidUpdatedCallback: AutopaySdkWithoutOCR.APCustomerFeeDidUpdatedCallback? = nil, tokenExpiredCallback: AutopaySdkWithoutOCR.APTokenExpiredCallback? = nil)
 }
 public struct RegulationsModel {
 }
 public typealias APPPaymentViewCallback = (_ result: AutopaySdkWithoutOCR.APTransaction?, _ error: AutopaySdkWithoutOCR.APError?) -> Swift.Void
 public typealias APPWebViewCallback = (_ result: AutopaySdkWithoutOCR.APResult?, _ error: AutopaySdkWithoutOCR.APError?) -> Swift.Void
-public typealias APPayTappedCallback = (_ paymentGroup: AutopaySdkWithoutOCR.APGatewayPaymentGroup, _ gateway: AutopaySdkWithoutOCR.APGateway, _ transactionData: AutopaySdkWithoutOCR.APTransactionData) -> Swift.Void
+public typealias APPayTappedCallback = (_ gatewayItem: AutopaySdkWithoutOCR.APGatewayItem, _ transactionData: AutopaySdkWithoutOCR.APTransactionData) -> Swift.Void
 public typealias APCustomerFeeDidUpdatedCallback = (_ customerFee: AutopaySdkWithoutOCR.APCustomerFee?) -> Swift.Void
 public typealias APTokenExpiredCallback = (_ error: AutopaySdkWithoutOCR.APError?) -> Swift.Void
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class APGatewayListContainerView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), excludedGatewayPaymentGroups: [Swift.Int], selectedPaymentGroupHandler: @escaping (AutopaySdkWithoutOCR.APGatewayPaymentGroup) -> Swift.Void, deselectedPaymentGroupHandler: @escaping () -> Swift.Void, sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency convenience public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), excludedGatewayPaymentGroups: [AutopaySdkWithoutOCR.APGatewayPaymentGroup], selectedPaymentGroupHandler: @escaping (AutopaySdkWithoutOCR.APGatewayPaymentGroup) -> Swift.Void, deselectedPaymentGroupHandler: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, showSingleItemGroup: Swift.Bool = false, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), excludedGateways: AutopaySdkWithoutOCR.APExcluding? = nil, selectedGatewayHandler: @escaping (AutopaySdkWithoutOCR.APGatewayItem?) -> Swift.Void, sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency final public func attach(to parent: UIKit.UIViewController)
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APGatewayListView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, excludedGatewayPaymentGroups: [AutopaySdkWithoutOCR.APGatewayPaymentGroup] = [], selectedPaymentGroupHandler: @escaping (AutopaySdkWithoutOCR.APGatewayPaymentGroup?) -> Swift.Void, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, showSingleItemGroup: Swift.Bool = false, excludedGateways: AutopaySdkWithoutOCR.APExcluding? = nil, selectedGatewayHandler: @escaping (AutopaySdkWithoutOCR.APGatewayItem?) -> Swift.Void, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s20AutopaySdkWithoutOCR17APGatewayListViewV4bodyQrvp", 0) __
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class APGenericGroupContainerView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(groupType: AutopaySdkWithoutOCR.APGatewayGroupType, data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, excludedGateways: AutopaySdkWithoutOCR.APExcluding? = nil, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency final public func attach(to parent: UIKit.UIViewController)
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct APGenericGroupView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(groupType: AutopaySdkWithoutOCR.APGatewayGroupType, data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, excludedGateways: AutopaySdkWithoutOCR.APExcluding? = nil, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s20AutopaySdkWithoutOCR18APGenericGroupViewV4bodyQrvp", 0) __
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class APApplePayGatewayContainerView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
@@ -755,18 +838,6 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdkWithoutOCR.APError
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s20AutopaySdkWithoutOCR21APApplePayGatewayViewV4bodyQrvp", 0) __
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class APBankTransferGatewayContainerView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency final public func attach(to parent: UIKit.UIViewController)
-  @objc deinit
-}
-@_Concurrency.MainActor @preconcurrency public struct APBankTransferGatewayView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s20AutopaySdkWithoutOCR25APBankTransferGatewayViewV4bodyQrvp", 0) __
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class APBlikGatewayContainerView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
@@ -781,12 +852,12 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdkWithoutOCR.APError
   public typealias Body = @_opaqueReturnTypeOf("$s20AutopaySdkWithoutOCR17APBlikGatewayViewV4bodyQrvp", 0) __
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class APCardActivationGatewayContainerView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdkWithoutOCR.APConfig, orderId: Swift.String? = nil, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), payTappedCallback: AutopaySdkWithoutOCR.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdkWithoutOCR.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdkWithoutOCR.APTokenExpiredCallback? = nil, sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdkWithoutOCR.APConfig, orderId: Swift.String? = nil, customParams: [Swift.String : Swift.String]? = nil, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), payTappedCallback: AutopaySdkWithoutOCR.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdkWithoutOCR.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdkWithoutOCR.APTokenExpiredCallback? = nil, sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency final public func attach(to parent: UIKit.UIViewController)
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct APCardActivationGatewayView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdkWithoutOCR.APConfig, orderId: Swift.String? = nil, payTappedCallback: AutopaySdkWithoutOCR.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdkWithoutOCR.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdkWithoutOCR.APTokenExpiredCallback? = nil, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(apConfig: AutopaySdkWithoutOCR.APConfig, orderId: Swift.String? = nil, customParams: [Swift.String : Swift.String]? = nil, payTappedCallback: AutopaySdkWithoutOCR.APPayTappedCallback? = nil, paymentViewCallback: AutopaySdkWithoutOCR.APPPaymentViewCallback? = nil, tokenExpiredCallback: AutopaySdkWithoutOCR.APTokenExpiredCallback? = nil, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -804,17 +875,17 @@ public typealias APTokenExpiredCallback = (_ error: AutopaySdkWithoutOCR.APError
   }
   public typealias Body = @_opaqueReturnTypeOf("$s20AutopaySdkWithoutOCR17APCardGatewayViewV4bodyQrvp", 0) __
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class APVisaGatewayContainerView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class APGenericGatewayContainerView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(gatewayType: AutopaySdkWithoutOCR.APGatewayType, data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, styleManager: AutopaySdkWithoutOCR.APStyleManager = .init(), sizeChanged: @escaping (CoreFoundation.CGSize) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency final public func attach(to parent: UIKit.UIViewController)
   @objc deinit
 }
-@_Concurrency.MainActor @preconcurrency public struct APVisaGatewayView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
+@_Concurrency.MainActor @preconcurrency public struct APGenericGatewayView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(gatewayType: AutopaySdkWithoutOCR.APGatewayType, data: AutopaySdkWithoutOCR.APGatewayBaseViewModelData, sizeChanged: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s20AutopaySdkWithoutOCR17APVisaGatewayViewV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s20AutopaySdkWithoutOCR20APGenericGatewayViewV4bodyQrvp", 0) __
 }
 public struct PaymentSummaryModel {
   public init(summary: Swift.String, amount: Swift.Double, customerFee: AutopaySdkWithoutOCR.APCustomerFee? = nil, currencySymbol: Swift.String)
@@ -863,7 +934,8 @@ extension AutopaySdkWithoutOCR.WebViewCoordinator : WebKit.WKUIDelegate {
 @objc final public class Autopay : ObjectiveC.NSObject {
   public init(config: AutopaySdkWithoutOCR.APConfig)
   final public class func getSdkVersion() -> Swift.String?
-  @_Concurrency.MainActor final public func getGatewayList() async throws -> [AutopaySdkWithoutOCR.APGateway]
+  @_Concurrency.MainActor final public func getGatewayList() async throws -> AutopaySdkWithoutOCR.APGatewayList
+  @_Concurrency.MainActor final public func getGroupedGatewayList() async throws -> [AutopaySdkWithoutOCR.APGroupedGatewayItem]
   @_Concurrency.MainActor final public func getCustomerFee(gatewayId: Swift.Int, amount: Swift.Double) async throws -> AutopaySdkWithoutOCR.APCustomerFee
   @_Concurrency.MainActor final public func getRegulations(gatewayId: Swift.Int) async throws -> AutopaySdkWithoutOCR.APRegulations
   @_Concurrency.MainActor final public func startTransaction(transactionData: AutopaySdkWithoutOCR.APTransactionData) async throws -> AutopaySdkWithoutOCR.APTransaction
@@ -884,11 +956,9 @@ extension AutopaySdkWithoutOCR.APConfirmation : Swift.Hashable {}
 extension AutopaySdkWithoutOCR.APConfirmation : Swift.RawRepresentable {}
 extension AutopaySdkWithoutOCR.APEnvironmentEnum : Swift.Equatable {}
 extension AutopaySdkWithoutOCR.APEnvironmentEnum : Swift.Hashable {}
-extension AutopaySdkWithoutOCR.APGatewayPaymentGroup : Swift.Equatable {}
-extension AutopaySdkWithoutOCR.APGatewayPaymentGroup : Swift.Hashable {}
-extension AutopaySdkWithoutOCR.APGatewayPaymentGroup : Swift.RawRepresentable {}
-extension AutopaySdkWithoutOCR.APGatewayType : Swift.Equatable {}
-extension AutopaySdkWithoutOCR.APGatewayType : Swift.Hashable {}
+extension AutopaySdkWithoutOCR.APGatewayState : Swift.Equatable {}
+extension AutopaySdkWithoutOCR.APGatewayState : Swift.Hashable {}
+extension AutopaySdkWithoutOCR.APGatewayState : Swift.RawRepresentable {}
 extension AutopaySdkWithoutOCR.APPaymentStatus : Swift.Equatable {}
 extension AutopaySdkWithoutOCR.APPaymentStatus : Swift.Hashable {}
 extension AutopaySdkWithoutOCR.APPaymentStatus : Swift.RawRepresentable {}
@@ -904,12 +974,12 @@ extension AutopaySdkWithoutOCR.RegulationLabelPlacement : Swift.Hashable {}
 extension AutopaySdkWithoutOCR.RegulationLabelPlacement : Swift.RawRepresentable {}
 extension AutopaySdkWithoutOCR.GatewayImage : Swift.Sendable {}
 extension AutopaySdkWithoutOCR.APGatewayListView : Swift.Sendable {}
+extension AutopaySdkWithoutOCR.APGenericGroupView : Swift.Sendable {}
 extension AutopaySdkWithoutOCR.APApplePayGatewayView : Swift.Sendable {}
-extension AutopaySdkWithoutOCR.APBankTransferGatewayView : Swift.Sendable {}
 extension AutopaySdkWithoutOCR.APBlikGatewayView : Swift.Sendable {}
 extension AutopaySdkWithoutOCR.APCardActivationGatewayView : Swift.Sendable {}
 extension AutopaySdkWithoutOCR.APCardGatewayView : Swift.Sendable {}
-extension AutopaySdkWithoutOCR.APVisaGatewayView : Swift.Sendable {}
+extension AutopaySdkWithoutOCR.APGenericGatewayView : Swift.Sendable {}
 extension AutopaySdkWithoutOCR.PaymentSummaryViewModel : Swift.Sendable {}
 extension AutopaySdkWithoutOCR.WebView : Swift.Sendable {}
 extension AutopaySdkWithoutOCR.WebViewCoordinator : Swift.Sendable {}
