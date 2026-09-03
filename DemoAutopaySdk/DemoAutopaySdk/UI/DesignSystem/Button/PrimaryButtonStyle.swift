@@ -12,7 +12,6 @@ enum PrimaryButtonType {
     case primary
     case tertiary
     case clear
-    case paymentMethod
     case picker
 
     var borderWidth: CGFloat {
@@ -23,8 +22,6 @@ enum PrimaryButtonType {
             1
         case .clear:
             0
-        case .paymentMethod:
-            1
         case .picker:
             2
         }
@@ -36,7 +33,6 @@ enum PrimaryButtonSize {
     case small
     case medium
     case large
-    case paymentMethod
     case picker
 
     var padding: EdgeInsets {
@@ -49,8 +45,6 @@ enum PrimaryButtonSize {
             EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
         case .large:
             EdgeInsets(top: 16, leading: 20, bottom: 16, trailing: 20)
-        case .paymentMethod:
-            EdgeInsets(top: 0, leading: 24, bottom: 0, trailing: 24)
         case .picker:
             EdgeInsets(top: 4, leading: 4, bottom: 4, trailing: 4)
         }
@@ -66,8 +60,6 @@ enum PrimaryButtonSize {
             .buttonMedium
         case .large:
             .buttonXLarge
-        case .paymentMethod:
-            .labelLarge
         case .picker:
             .buttonXLarge
         }
@@ -128,7 +120,7 @@ private extension PrimaryButtonStyle {
             colorManager.brandColor
         case .clear:
             colorManager.textColor
-        case .paymentMethod, .picker:
+        case .picker:
             colorManager.textColor
         }
     }
@@ -141,7 +133,7 @@ private extension PrimaryButtonStyle {
             colorManager.brandDisabledColor
         case .clear:
             colorManager.textColor
-        case .paymentMethod, .picker:
+        case .picker:
             colorManager.textColor
         }
     }
@@ -154,8 +146,6 @@ private extension PrimaryButtonStyle {
             Color.clear
         case .clear:
             Color.clear
-        case .paymentMethod:
-            colorManager.contentColor
         }
     }
 
@@ -167,8 +157,6 @@ private extension PrimaryButtonStyle {
             Color.clear
         case .clear:
             Color.clear
-        case .paymentMethod:
-            colorManager.contentDisabledColor
         }
     }
 
@@ -180,8 +168,6 @@ private extension PrimaryButtonStyle {
             Color.clear
         case .clear, .picker:
             Color.clear
-        case .paymentMethod:
-            colorManager.contentColor
         }
     }
 
@@ -193,8 +179,6 @@ private extension PrimaryButtonStyle {
             colorManager.brandColor
         case .clear, .picker:
             Color.clear
-        case .paymentMethod:
-            Colors.neutral400
         }
     }
 
@@ -206,8 +190,6 @@ private extension PrimaryButtonStyle {
             colorManager.brandDisabledColor
         case .clear, .picker:
             Color.clear
-        case .paymentMethod:
-            Colors.neutral500
         }
     }
 }
@@ -225,8 +207,6 @@ private extension PrimaryButtonStyle {
         switch size {
         case .xsmall, .small, .medium, .large, .picker:
             size.cornerRadius
-        case .paymentMethod:
-            isEnabled ? size.cornerRadius : 16
         }
     }
 
@@ -236,8 +216,6 @@ private extension PrimaryButtonStyle {
             type.borderWidth
         case .picker:
             isEnabled ? type.borderWidth : 0
-        case .paymentMethod:
-            isEnabled ? type.borderWidth : 0
         }
     }
 
@@ -245,8 +223,6 @@ private extension PrimaryButtonStyle {
         switch size {
         case .xsmall, .small, .medium, .large, .picker:
             48
-        case .paymentMethod:
-            isEnabled ? 48 : 56
         }
     }
 

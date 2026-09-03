@@ -106,18 +106,45 @@ extension APStyleManager {
             dark: designConfig.brandColor.dark.opacity(0.4)
         )
         
-        paymentMethodButtonStyle.containerColor = designConfig.backgroundColor
-        paymentMethodButtonStyle.borderColor = .init(
+        paymentListTileStyle.containerColor = designConfig.backgroundColor
+        paymentListTileStyle.containerInactiveColor = designConfig.backgroundColor
+        paymentListTileStyle.borderColor = .init(
             light: designConfig.neutralDarkColor.light.opacity(0.2),
             dark: designConfig.neutralDarkColor.dark.opacity(0.2)
         )
-        paymentMethodButtonStyle.textStyle.color = designConfig.textColor
+        paymentListTileStyle.borderInactiveColor = .init(
+            light: designConfig.neutralDarkColor.light.opacity(0.1),
+            dark: designConfig.neutralDarkColor.dark.opacity(0.1)
+        )
+        paymentListTileStyle.titleStyle.color = designConfig.textColor
+        paymentListTileStyle.titleInactiveStyle.color = .init(
+            light: designConfig.textColor.light.opacity(0.56),
+            dark: designConfig.textColor.dark.opacity(0.56)
+        )
+        paymentListTileStyle.subtitleStyle.color = designConfig.textColor
+        paymentListTileStyle.dividerColor = .init(
+            light: designConfig.neutralDarkColor.light.opacity(0.2),
+            dark: designConfig.neutralDarkColor.dark.opacity(0.2)
+        )
+        paymentListTileStyle.itemGridStyle.backgroundColor = designConfig.backgroundColor
+        paymentListTileStyle.itemGridStyle.borderColor = .init(
+            light: designConfig.neutralDarkColor.light.opacity(0.2),
+            dark: designConfig.neutralDarkColor.dark.opacity(0.2)
+        )
+        paymentListTileStyle.itemGridStyle.borderInactiveColor = .init(
+            light: designConfig.neutralDarkColor.light.opacity(0.1),
+            dark: designConfig.neutralDarkColor.dark.opacity(0.1)
+        )
         
-        bankGridStyle.backgroundColor = designConfig.backgroundColor
-        bankGridStyle.checkedBorderColor = designConfig.brandColor
-        bankGridStyle.uncheckedBorderColor = .init(
-            light: designConfig.neutralDarkColor.light.opacity(0.4),
-            dark: designConfig.neutralDarkColor.dark.opacity(0.4)
+        genericGroupGridStyle.backgroundColor = designConfig.backgroundColor
+        genericGroupGridStyle.checkedBorderColor = designConfig.brandColor
+        genericGroupGridStyle.uncheckedBorderColor = .init(
+            light: designConfig.neutralDarkColor.light.opacity(0.2),
+            dark: designConfig.neutralDarkColor.dark.opacity(0.2)
+        )
+        genericGroupGridStyle.inactiveBorderColor = .init(
+            light: designConfig.neutralDarkColor.light.opacity(0.1),
+            dark: designConfig.neutralDarkColor.dark.opacity(0.1)
         )
         
         checkboxStyle.checkedColor = designConfig.brandColor

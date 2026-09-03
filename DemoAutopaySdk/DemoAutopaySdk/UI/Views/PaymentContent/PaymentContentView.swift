@@ -36,7 +36,7 @@ struct PaymentContentView: View {
                 }
             }
         })
-        .navigationTitle(viewModel.viewType == .cardActivation ? "demo_card_activation_title" : viewModel.navigationTitle)
+        .navigationTitle(viewModel.viewType == .cardActivation ? String(localized: "demo_card_activation_title") : viewModel.navigationTitle)
     }
     
     @ViewBuilder
@@ -66,7 +66,7 @@ struct PaymentContentView: View {
             cardActivationView
         }
     }
-    
+
     var gatewayListView: some View {
         APGatewayListView(
             data: APGatewayBaseViewModelData(
@@ -82,7 +82,9 @@ struct PaymentContentView: View {
                     // config.setToken(token: "new_token_here")
                     // And let user use retry button or pay button
                 }
-            )) { viewModel.setSelectedPaymentGroup($0) }
+            ),
+            showSingleItemGroup: Bool(SdkConfigManager.shared.param(for: .showSingleItemGroup)) ?? false
+        ) { viewModel.setSelectedPayment($0) }
             .background(colorManager.neutralLightColor)
             .environmentObject(colorManager.styleManager)
     }

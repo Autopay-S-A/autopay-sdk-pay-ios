@@ -379,76 +379,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR30APApplePayGatewayContainerView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-/// A customizable style container that defines the visual appearance and layout
-/// for a grid of bank items within the SDK.
-/// Use <code>APBankGridStyle</code> to configure how bank options are presented in grid form,
-/// including the number of columns, cell dimensions, corner radius, and colors for
-/// the background and borders in checked/unchecked states.
-/// note:
-/// Values provided here are defaults and can be overridden per usage..
-/// Properties:
-/// <ul>
-///   <li>
-///     <code>columns</code>: The number of columns in the grid. Defaults to <code>3</code>.
-///   </li>
-///   <li>
-///     <code>cellHeight</code>: The fixed height for each grid cell, in points. Defaults to <code>80</code>.
-///   </li>
-///   <li>
-///     <code>radius</code>: The corner radius applied to each grid cell, in points. Defaults to <code>12</code>.
-///   </li>
-///   <li>
-///     <code>backgroundColor</code>: The background color for grid cells. Defaults to <code>light: #FFFFFF, dark: #0F0F0F</code>.
-///   </li>
-///   <li>
-///     <code>checkedBorderColor</code>: The border color used when a cell is selected (checked).
-///     Defaults to <code>light: #2E72BF, dark: #158EE6</code>.
-///   </li>
-///   <li>
-///     <code>uncheckedBorderColor</code>: The border color used when a cell is not selected (unchecked).
-///     Defaults to <code>light: #808080 alpha 0.4, dark: #CCCCCC alpha 0.4</code>.
-///   </li>
-/// </ul>
-/// Example:
-/// <ul>
-///   <li>
-///     Set <code>columns</code> to <code>4</code> for denser layouts.
-///   </li>
-///   <li>
-///     Increase <code>cellHeight</code> for larger cell.
-///   </li>
-///   <li>
-///     Adjust <code>radius</code> to align with your app’s corner style.
-///   </li>
-///   <li>
-///     Provide custom colors to ensure contrast and accessibility.
-///   </li>
-/// </ul>
-/// Thread-safety:
-/// <ul>
-///   <li>
-///     This type is a simple configuration object and is not thread-safe by design.
-///     Configure it on the main thread or before passing it to UI components.
-///   </li>
-/// </ul>
-/// Accessibility:
-/// <ul>
-///   <li>
-///     Ensure chosen colors provide sufficient contrast, especially for <code>checkedBorderColor</code>
-///     and <code>uncheckedBorderColor</code>, to make selection states visually distinguishable.
-///   </li>
-/// </ul>
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR15APBankGridStyle")
-@interface APBankGridStyle : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR34APBankTransferGatewayContainerView")
-@interface APBankTransferGatewayContainerView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APBlikGatewayContainerView")
 @interface APBlikGatewayContainerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -661,13 +591,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR8APConfig")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR10APCurrency")
-@interface APCurrency : NSObject
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APCustomerFee")
 @interface APCustomerFee : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -782,23 +705,95 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7APError")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR9APGateway")
-@interface APGateway : NSObject
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APGatewayBaseViewModelData")
-@interface APGatewayBaseViewModelData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APGatewayListContainerView")
 @interface APGatewayListContainerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR29APGenericGatewayContainerView")
+@interface APGenericGatewayContainerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR27APGenericGroupContainerView")
+@interface APGenericGroupContainerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+/// A customizable style container that defines the visual appearance and layout
+/// for a grid of gateway items within the SDK.
+/// Use <code>APGenericGroupGridStyle</code> to configure how gateway options are presented in grid form,
+/// including the number of columns, cell dimensions, corner radius, and colors for
+/// the background and borders in checked/unchecked states.
+/// note:
+/// Values provided here are defaults and can be overridden per usage..
+/// Properties:
+/// <ul>
+///   <li>
+///     <code>columns</code>: The number of columns in the grid. Defaults to <code>3</code>.
+///   </li>
+///   <li>
+///     <code>cellHeight</code>: The fixed height for each grid cell, in points. Defaults to <code>80</code>.
+///   </li>
+///   <li>
+///     <code>radius</code>: The corner radius applied to each grid cell, in points. Defaults to <code>12</code>.
+///   </li>
+///   <li>
+///     <code>backgroundColor</code>: The background color for grid cells. Defaults to <code>light: #FFFFFF, dark: #0F0F0F</code>.
+///   </li>
+///   <li>
+///     <code>checkedBorderColor</code>: The border color used when a cell is selected (checked).
+///     Defaults to <code>light: #2E72BF, dark: #158EE6</code>.
+///   </li>
+///   <li>
+///     <code>uncheckedBorderColor</code>: The border color used when a cell is not selected (unchecked).
+///     Defaults to <code>light: #808080 alpha 0.2, dark: #CCCCCC alpha 0.2</code>.
+///   </li>
+///   <li>
+///     <code>inactiveBorderColor</code>: The border color used when a cell is disabled.
+///     Defaults to <code>light: #808080 alpha 0.1, dark: #CCCCCC alpha 0.1</code>.
+///   </li>
+/// </ul>
+/// Example:
+/// <ul>
+///   <li>
+///     Set <code>columns</code> to <code>4</code> for denser layouts.
+///   </li>
+///   <li>
+///     Increase <code>cellHeight</code> for larger cell.
+///   </li>
+///   <li>
+///     Adjust <code>radius</code> to align with your app’s corner style.
+///   </li>
+///   <li>
+///     Provide custom colors to ensure contrast and accessibility.
+///   </li>
+/// </ul>
+/// Thread-safety:
+/// <ul>
+///   <li>
+///     This type is a simple configuration object and is not thread-safe by design.
+///     Configure it on the main thread or before passing it to UI components.
+///   </li>
+/// </ul>
+/// Accessibility:
+/// <ul>
+///   <li>
+///     Ensure chosen colors provide sufficient contrast, especially for <code>checkedBorderColor</code>
+///     and <code>uncheckedBorderColor</code>, to make selection states visually distinguishable.
+///   </li>
+/// </ul>
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR23APGenericGroupGridStyle")
+@interface APGenericGroupGridStyle : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR16APGroupGridStyle")
+@interface APGroupGridStyle : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 /// A customizable style container that defines the visual appearance
@@ -855,6 +850,11 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7APParam")
 @interface APParam : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR22APPaymentListTileStyle")
+@interface APPaymentListTileStyle : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 /// A customizable style container that defines the visual appearance and layout
@@ -1074,9 +1074,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR8APResult")
 ///   </li>
 ///   <li>
 ///     <code>loaderStyle</code>: Style for loading indicators/spinners.
-///   </li>
-///   <li>
-///     <code>paymentMethodButtonStyle</code>: Style preset for buttons representing payment methods.
 ///   </li>
 ///   <li>
 ///     <code>paymentMethodTitleStyle</code>: Style for payment method title/header components.
@@ -1464,12 +1461,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR19APTransactionStatus")
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR12APTypography")
 @interface APTypography : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APVisaGatewayContainerView")
-@interface APVisaGatewayContainerView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7Autopay")
@@ -1895,76 +1886,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR30APApplePayGatewayContainerView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-/// A customizable style container that defines the visual appearance and layout
-/// for a grid of bank items within the SDK.
-/// Use <code>APBankGridStyle</code> to configure how bank options are presented in grid form,
-/// including the number of columns, cell dimensions, corner radius, and colors for
-/// the background and borders in checked/unchecked states.
-/// note:
-/// Values provided here are defaults and can be overridden per usage..
-/// Properties:
-/// <ul>
-///   <li>
-///     <code>columns</code>: The number of columns in the grid. Defaults to <code>3</code>.
-///   </li>
-///   <li>
-///     <code>cellHeight</code>: The fixed height for each grid cell, in points. Defaults to <code>80</code>.
-///   </li>
-///   <li>
-///     <code>radius</code>: The corner radius applied to each grid cell, in points. Defaults to <code>12</code>.
-///   </li>
-///   <li>
-///     <code>backgroundColor</code>: The background color for grid cells. Defaults to <code>light: #FFFFFF, dark: #0F0F0F</code>.
-///   </li>
-///   <li>
-///     <code>checkedBorderColor</code>: The border color used when a cell is selected (checked).
-///     Defaults to <code>light: #2E72BF, dark: #158EE6</code>.
-///   </li>
-///   <li>
-///     <code>uncheckedBorderColor</code>: The border color used when a cell is not selected (unchecked).
-///     Defaults to <code>light: #808080 alpha 0.4, dark: #CCCCCC alpha 0.4</code>.
-///   </li>
-/// </ul>
-/// Example:
-/// <ul>
-///   <li>
-///     Set <code>columns</code> to <code>4</code> for denser layouts.
-///   </li>
-///   <li>
-///     Increase <code>cellHeight</code> for larger cell.
-///   </li>
-///   <li>
-///     Adjust <code>radius</code> to align with your app’s corner style.
-///   </li>
-///   <li>
-///     Provide custom colors to ensure contrast and accessibility.
-///   </li>
-/// </ul>
-/// Thread-safety:
-/// <ul>
-///   <li>
-///     This type is a simple configuration object and is not thread-safe by design.
-///     Configure it on the main thread or before passing it to UI components.
-///   </li>
-/// </ul>
-/// Accessibility:
-/// <ul>
-///   <li>
-///     Ensure chosen colors provide sufficient contrast, especially for <code>checkedBorderColor</code>
-///     and <code>uncheckedBorderColor</code>, to make selection states visually distinguishable.
-///   </li>
-/// </ul>
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR15APBankGridStyle")
-@interface APBankGridStyle : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR34APBankTransferGatewayContainerView")
-@interface APBankTransferGatewayContainerView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APBlikGatewayContainerView")
 @interface APBlikGatewayContainerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -2177,13 +2098,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR8APConfig")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR10APCurrency")
-@interface APCurrency : NSObject
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR13APCustomerFee")
 @interface APCustomerFee : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -2298,23 +2212,95 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7APError")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR9APGateway")
-@interface APGateway : NSObject
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APGatewayBaseViewModelData")
-@interface APGatewayBaseViewModelData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APGatewayListContainerView")
 @interface APGatewayListContainerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR29APGenericGatewayContainerView")
+@interface APGenericGatewayContainerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR27APGenericGroupContainerView")
+@interface APGenericGroupContainerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+/// A customizable style container that defines the visual appearance and layout
+/// for a grid of gateway items within the SDK.
+/// Use <code>APGenericGroupGridStyle</code> to configure how gateway options are presented in grid form,
+/// including the number of columns, cell dimensions, corner radius, and colors for
+/// the background and borders in checked/unchecked states.
+/// note:
+/// Values provided here are defaults and can be overridden per usage..
+/// Properties:
+/// <ul>
+///   <li>
+///     <code>columns</code>: The number of columns in the grid. Defaults to <code>3</code>.
+///   </li>
+///   <li>
+///     <code>cellHeight</code>: The fixed height for each grid cell, in points. Defaults to <code>80</code>.
+///   </li>
+///   <li>
+///     <code>radius</code>: The corner radius applied to each grid cell, in points. Defaults to <code>12</code>.
+///   </li>
+///   <li>
+///     <code>backgroundColor</code>: The background color for grid cells. Defaults to <code>light: #FFFFFF, dark: #0F0F0F</code>.
+///   </li>
+///   <li>
+///     <code>checkedBorderColor</code>: The border color used when a cell is selected (checked).
+///     Defaults to <code>light: #2E72BF, dark: #158EE6</code>.
+///   </li>
+///   <li>
+///     <code>uncheckedBorderColor</code>: The border color used when a cell is not selected (unchecked).
+///     Defaults to <code>light: #808080 alpha 0.2, dark: #CCCCCC alpha 0.2</code>.
+///   </li>
+///   <li>
+///     <code>inactiveBorderColor</code>: The border color used when a cell is disabled.
+///     Defaults to <code>light: #808080 alpha 0.1, dark: #CCCCCC alpha 0.1</code>.
+///   </li>
+/// </ul>
+/// Example:
+/// <ul>
+///   <li>
+///     Set <code>columns</code> to <code>4</code> for denser layouts.
+///   </li>
+///   <li>
+///     Increase <code>cellHeight</code> for larger cell.
+///   </li>
+///   <li>
+///     Adjust <code>radius</code> to align with your app’s corner style.
+///   </li>
+///   <li>
+///     Provide custom colors to ensure contrast and accessibility.
+///   </li>
+/// </ul>
+/// Thread-safety:
+/// <ul>
+///   <li>
+///     This type is a simple configuration object and is not thread-safe by design.
+///     Configure it on the main thread or before passing it to UI components.
+///   </li>
+/// </ul>
+/// Accessibility:
+/// <ul>
+///   <li>
+///     Ensure chosen colors provide sufficient contrast, especially for <code>checkedBorderColor</code>
+///     and <code>uncheckedBorderColor</code>, to make selection states visually distinguishable.
+///   </li>
+/// </ul>
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR23APGenericGroupGridStyle")
+@interface APGenericGroupGridStyle : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR16APGroupGridStyle")
+@interface APGroupGridStyle : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 /// A customizable style container that defines the visual appearance
@@ -2371,6 +2357,11 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7APParam")
 @interface APParam : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR22APPaymentListTileStyle")
+@interface APPaymentListTileStyle : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 /// A customizable style container that defines the visual appearance and layout
@@ -2590,9 +2581,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR8APResult")
 ///   </li>
 ///   <li>
 ///     <code>loaderStyle</code>: Style for loading indicators/spinners.
-///   </li>
-///   <li>
-///     <code>paymentMethodButtonStyle</code>: Style preset for buttons representing payment methods.
 ///   </li>
 ///   <li>
 ///     <code>paymentMethodTitleStyle</code>: Style for payment method title/header components.
@@ -2980,12 +2968,6 @@ SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR19APTransactionStatus")
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR12APTypography")
 @interface APTypography : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR26APVisaGatewayContainerView")
-@interface APVisaGatewayContainerView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 SWIFT_CLASS("_TtC20AutopaySdkWithoutOCR7Autopay")
