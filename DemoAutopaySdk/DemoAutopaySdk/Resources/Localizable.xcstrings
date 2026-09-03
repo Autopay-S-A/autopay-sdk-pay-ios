@@ -7,72 +7,6 @@
     "#FFFFFF" : {
       "shouldTranslate" : false
     },
-    "demo_apple_pay_title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apple Pay-Zahlung"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apple Pay payment"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Płatność Apple Pay"
-          }
-        }
-      }
-    },
-    "demo_bank_title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Banküberweisung"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bank transfer payment"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Płatność przelewem bankowym"
-          }
-        }
-      }
-    },
-    "demo_blik_title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BLIK-Zahlung"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BLIK payment"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Płatność BLIK"
-          }
-        }
-      }
-    },
     "demo_card_activation_title" : {
       "localizations" : {
         "de" : {
@@ -113,28 +47,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Płatność automatyczna"
-          }
-        }
-      }
-    },
-    "demo_card_title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bezahlung mit Karte"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Card payment"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Płatność kartą płatniczą"
           }
         }
       }
@@ -853,6 +765,29 @@
         }
       }
     },
+    "demo_service_config_show_single_item_group" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppen sollten nicht durch einen einzigen Zahlungskanal vereinheitlicht werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don't flatten groups with a single payment channel"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie spłaszczaj grup z jednym kanałem płatności"
+          }
+        }
+      }
+    },
     "demo_service_config_token" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1324,28 +1259,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybór wywoływania form płatności"
-          }
-        }
-      }
-    },
-    "demo_visa_title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Visa Mobile"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Visa Mobile payment"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Płatność Visa Mobile"
           }
         }
       }

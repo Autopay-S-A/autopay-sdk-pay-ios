@@ -20,6 +20,7 @@ enum ServiceConfigType: String, CaseIterable {
     case currency
     case contextPath
     case useWebBlik
+    case showSingleItemGroup
 
     var titleKey: String {
         switch self {
@@ -33,6 +34,8 @@ enum ServiceConfigType: String, CaseIterable {
             "demo_service_config_context_path"
         case .useWebBlik:
             "demo_service_config_use_web_blik"
+        case .showSingleItemGroup:
+            "demo_service_config_show_single_item_group"
         default:
             "demo_service_config_\(self)"
         }
@@ -40,7 +43,8 @@ enum ServiceConfigType: String, CaseIterable {
     
     var viewType: ServiceConfigViewType {
         switch self {
-        case .useWebBlik:
+        case .useWebBlik,
+                .showSingleItemGroup:
             .toggle
         default:
             .textField
@@ -56,7 +60,8 @@ enum ServiceConfigType: String, CaseIterable {
             .price,
             .currency,
             .paymentSummary,
-            .useWebBlik
+            .useWebBlik,
+            .showSingleItemGroup
         ]
     }
     

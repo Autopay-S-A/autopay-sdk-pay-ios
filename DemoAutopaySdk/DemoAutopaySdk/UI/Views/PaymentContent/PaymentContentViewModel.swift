@@ -11,7 +11,7 @@ import SwiftUI
 
 @MainActor
 class PaymentContentViewModel: ObservableObject {
-    @Published private(set) var navigationTitle: LocalizedStringKey = "demo_list_title"
+    @Published private(set) var navigationTitle: String = String(localized: "demo_list_title")
     @Published var redirectUrl: URL? = nil
     @Published var shouldShowPaymentStatus: Bool = false
     @Published var shouldShowWebView: Bool = false
@@ -63,15 +63,12 @@ class PaymentContentViewModel: ObservableObject {
         }
     }
 
-    func setSelectedPaymentGroup(_ paymentGroup: APGatewayPaymentGroup?) {
-        switch paymentGroup {
-        case .applePay: navigationTitle = "demo_apple_pay_title"
-        case .bankTransfer: navigationTitle = "demo_bank_title"
-        case .blik: navigationTitle = "demo_blik_title"
-        case .card: navigationTitle = "demo_card_title"
-        case .visa: navigationTitle = "demo_visa_title"
-        default: navigationTitle = "demo_list_title"
+    func setSelectedPayment(_ gatewayItem: APGatewayItem?) {
+        guard let title = gatewayItem?.group.title else {
+            navigationTitle = String(localized: "demo_list_title")
+            return
         }
+        navigationTitle = title
     }
 
     private func setupBinding() {
